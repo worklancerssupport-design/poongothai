@@ -1,0 +1,2045 @@
+[
+    {
+        "GENDER":  "MENS",
+        "SERVICE_NAME":  "Hair Cut",
+        "SERVICE":  "Trimming",
+        "TYPE":  "",
+        "PRICE":  "80",
+        "OLD PRICE":  "",
+        "image_url":  "https://cdn.shopify.com/s/files/1/0899/2676/2789/files/Classic_Crew_Cut.jpg?v=1730411406"
+    },
+    {
+        "GENDER":  "MENS",
+        "SERVICE_NAME":  "Hair Cut",
+        "SERVICE":  "Hair cut normal",
+        "TYPE":  "",
+        "PRICE":  "150",
+        "OLD PRICE":  "",
+        "image_url":  "https://cdn.shopify.com/s/files/1/0899/2676/2789/files/Classic_Crew_Cut.jpg?v=1730411406"
+    },
+    {
+        "GENDER":  "MENS",
+        "SERVICE_NAME":  "Hair Cut",
+        "SERVICE":  "shaving foam",
+        "TYPE":  "",
+        "PRICE":  "80",
+        "OLD PRICE":  "",
+        "image_url":  "https://cdn.shopify.com/s/files/1/0899/2676/2789/files/Classic_Crew_Cut.jpg?v=1730411406"
+    },
+    {
+        "GENDER":  "MENS",
+        "SERVICE_NAME":  "Hair Cut",
+        "SERVICE":  "hair cutting cream and foam shaving",
+        "TYPE":  "",
+        "PRICE":  "250",
+        "OLD PRICE":  "",
+        "image_url":  "https://cdn.shopify.com/s/files/1/0899/2676/2789/files/Classic_Crew_Cut.jpg?v=1730411406"
+    },
+    {
+        "GENDER":  "MENS",
+        "SERVICE_NAME":  "Hair Cut",
+        "SERVICE":  "beard setting and french beard",
+        "TYPE":  "",
+        "PRICE":  "100",
+        "OLD PRICE":  "",
+        "image_url":  "https://cdn.shopify.com/s/files/1/0899/2676/2789/files/Classic_Crew_Cut.jpg?v=1730411406"
+    },
+    {
+        "GENDER":  "MENS",
+        "SERVICE_NAME":  "Hair Cut",
+        "SERVICE":  "hair cut and shampoo",
+        "TYPE":  "",
+        "PRICE":  "200",
+        "OLD PRICE":  "",
+        "image_url":  "https://cdn.shopify.com/s/files/1/0899/2676/2789/files/Classic_Crew_Cut.jpg?v=1730411406"
+    },
+    {
+        "GENDER":  "MENS",
+        "SERVICE_NAME":  "Hair Cut",
+        "SERVICE":  "shampoo setting only",
+        "TYPE":  "",
+        "PRICE":  "60",
+        "OLD PRICE":  "",
+        "image_url":  "https://cdn.shopify.com/s/files/1/0899/2676/2789/files/Classic_Crew_Cut.jpg?v=1730411406"
+    },
+    {
+        "GENDER":  "MENS",
+        "SERVICE_NAME":  "Hair Cut",
+        "SERVICE":  "small boys cut (below 5 year)",
+        "TYPE":  "",
+        "PRICE":  "120",
+        "OLD PRICE":  "",
+        "image_url":  "https://cdn.shopify.com/s/files/1/0899/2676/2789/files/Classic_Crew_Cut.jpg?v=1730411406"
+    },
+    {
+        "GENDER":  "MENS",
+        "SERVICE_NAME":  "Hair Cut",
+        "SERVICE":  "master cut",
+        "TYPE":  "",
+        "PRICE":  "150",
+        "OLD PRICE":  "",
+        "image_url":  "https://cdn.shopify.com/s/files/1/0899/2676/2789/files/Classic_Crew_Cut.jpg?v=1730411406"
+    },
+    {
+        "GENDER":  "MENS",
+        "SERVICE_NAME":  "Hair Cut",
+        "SERVICE":  "pop cut",
+        "TYPE":  "",
+        "PRICE":  "150 - 200",
+        "OLD PRICE":  "",
+        "image_url":  "https://cdn.shopify.com/s/files/1/0899/2676/2789/files/Classic_Crew_Cut.jpg?v=1730411406"
+    },
+    {
+        "GENDER":  "MENS",
+        "SERVICE_NAME":  "Hair Cut",
+        "SERVICE":  "mushroom cut",
+        "TYPE":  "",
+        "PRICE":  "150 - 200",
+        "OLD PRICE":  "",
+        "image_url":  "https://cdn.shopify.com/s/files/1/0899/2676/2789/files/Classic_Crew_Cut.jpg?v=1730411406"
+    },
+    {
+        "GENDER":  "",
+        "SERVICE_NAME":  "",
+        "SERVICE":  "",
+        "TYPE":  "",
+        "PRICE":  "",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "MENS",
+        "SERVICE_NAME":  "HAIR COLOURING",
+        "SERVICE":  "Garnier (No Ammonia)",
+        "TYPE":  "",
+        "PRICE":  "300",
+        "OLD PRICE":  "",
+        "image_url":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN77Xj73oyeqbfAwrmKs_x8qKe02BLiNcfa3DWj9Yssn59veLG2B6tcc4\u0026s=10"
+    },
+    {
+        "GENDER":  "MENS",
+        "SERVICE_NAME":  "HAIR COLOURING",
+        "SERVICE":  "Any Herbal",
+        "TYPE":  "",
+        "PRICE":  "200",
+        "OLD PRICE":  "",
+        "image_url":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN77Xj73oyeqbfAwrmKs_x8qKe02BLiNcfa3DWj9Yssn59veLG2B6tcc4\u0026s=10"
+    },
+    {
+        "GENDER":  "MENS",
+        "SERVICE_NAME":  "HAIR COLOURING",
+        "SERVICE":  "Dreamronor",
+        "TYPE":  "",
+        "PRICE":  "400",
+        "OLD PRICE":  "",
+        "image_url":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN77Xj73oyeqbfAwrmKs_x8qKe02BLiNcfa3DWj9Yssn59veLG2B6tcc4\u0026s=10"
+    },
+    {
+        "GENDER":  "MENS",
+        "SERVICE_NAME":  "HAIR COLOURING",
+        "SERVICE":  "Loreal Majirel",
+        "TYPE":  "",
+        "PRICE":  "500",
+        "OLD PRICE":  "",
+        "image_url":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN77Xj73oyeqbfAwrmKs_x8qKe02BLiNcfa3DWj9Yssn59veLG2B6tcc4\u0026s=10"
+    },
+    {
+        "GENDER":  "MENS",
+        "SERVICE_NAME":  "HAIR COLOURING",
+        "SERVICE":  "Loreal (No Ammonia)",
+        "TYPE":  "",
+        "PRICE":  "600",
+        "OLD PRICE":  "",
+        "image_url":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN77Xj73oyeqbfAwrmKs_x8qKe02BLiNcfa3DWj9Yssn59veLG2B6tcc4\u0026s=10"
+    },
+    {
+        "GENDER":  "MENS",
+        "SERVICE_NAME":  "HAIR COLOURING",
+        "SERVICE":  "Bigen Loreal Innova / Revlon",
+        "TYPE":  "",
+        "PRICE":  "600 - 700",
+        "OLD PRICE":  "",
+        "image_url":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN77Xj73oyeqbfAwrmKs_x8qKe02BLiNcfa3DWj9Yssn59veLG2B6tcc4\u0026s=10"
+    },
+    {
+        "GENDER":  "MENS",
+        "SERVICE_NAME":  "HAIR COLOURING",
+        "SERVICE":  "Mehanti",
+        "TYPE":  "",
+        "PRICE":  "300",
+        "OLD PRICE":  "",
+        "image_url":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN77Xj73oyeqbfAwrmKs_x8qKe02BLiNcfa3DWj9Yssn59veLG2B6tcc4\u0026s=10"
+    },
+    {
+        "GENDER":  "MENS",
+        "SERVICE_NAME":  "HAIR COLOURING",
+        "SERVICE":  "Hair Straightening",
+        "TYPE":  "",
+        "PRICE":  "1500 - 3000",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "MENS",
+        "SERVICE_NAME":  "HAIR COLOURING",
+        "SERVICE":  "Hair Spa",
+        "TYPE":  "",
+        "PRICE":  "500 - 700",
+        "OLD PRICE":  "",
+        "image_url":  "https://content.jdmagicbox.com/comp/nellore/e6/9999px861.x861.190913191004.g5e6/catalogue/fresh-look-salon-jyothi-nagar-nellore-salons-3hzrgtkg1e.jpg"
+    },
+    {
+        "GENDER":  "MENS",
+        "SERVICE_NAME":  "HAIR COLOURING",
+        "SERVICE":  "Oil Therapy",
+        "TYPE":  "",
+        "PRICE":  "800",
+        "OLD PRICE":  "",
+        "image_url":  "https://content.jdmagicbox.com/comp/nellore/e6/9999px861.x861.190913191004.g5e6/catalogue/fresh-look-salon-jyothi-nagar-nellore-salons-3hzrgtkg1e.jpg"
+    },
+    {
+        "GENDER":  "",
+        "SERVICE_NAME":  "",
+        "SERVICE":  "",
+        "TYPE":  "",
+        "PRICE":  "",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "MENS",
+        "SERVICE_NAME":  "FACIAL",
+        "SERVICE":  "Face Pack",
+        "TYPE":  "",
+        "PRICE":  "100",
+        "OLD PRICE":  "",
+        "image_url":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQop3r0zfI8FP1ifL74je9lUE2RIZMu58ERk_GjQNezolgD6W9zkda3tRw\u0026s=10"
+    },
+    {
+        "GENDER":  "MENS",
+        "SERVICE_NAME":  "FACIAL",
+        "SERVICE":  "Face Massage",
+        "TYPE":  "",
+        "PRICE":  "200",
+        "OLD PRICE":  "",
+        "image_url":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQop3r0zfI8FP1ifL74je9lUE2RIZMu58ERk_GjQNezolgD6W9zkda3tRw\u0026s=10"
+    },
+    {
+        "GENDER":  "MENS",
+        "SERVICE_NAME":  "FACIAL",
+        "SERVICE":  "Fruit",
+        "TYPE":  "",
+        "PRICE":  "600",
+        "OLD PRICE":  "",
+        "image_url":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQop3r0zfI8FP1ifL74je9lUE2RIZMu58ERk_GjQNezolgD6W9zkda3tRw\u0026s=10"
+    },
+    {
+        "GENDER":  "MENS",
+        "SERVICE_NAME":  "FACIAL",
+        "SERVICE":  "Pearl",
+        "TYPE":  "",
+        "PRICE":  "800",
+        "OLD PRICE":  "",
+        "image_url":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQop3r0zfI8FP1ifL74je9lUE2RIZMu58ERk_GjQNezolgD6W9zkda3tRw\u0026s=10"
+    },
+    {
+        "GENDER":  "MENS",
+        "SERVICE_NAME":  "FACIAL",
+        "SERVICE":  "Papaya",
+        "TYPE":  "",
+        "PRICE":  "800",
+        "OLD PRICE":  "",
+        "image_url":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQop3r0zfI8FP1ifL74je9lUE2RIZMu58ERk_GjQNezolgD6W9zkda3tRw\u0026s=10"
+    },
+    {
+        "GENDER":  "MENS",
+        "SERVICE_NAME":  "FACIAL",
+        "SERVICE":  "Fairness",
+        "TYPE":  "",
+        "PRICE":  "900",
+        "OLD PRICE":  "",
+        "image_url":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQop3r0zfI8FP1ifL74je9lUE2RIZMu58ERk_GjQNezolgD6W9zkda3tRw\u0026s=10"
+    },
+    {
+        "GENDER":  "MENS",
+        "SERVICE_NAME":  "FACIAL",
+        "SERVICE":  "Diamond",
+        "TYPE":  "",
+        "PRICE":  "1000",
+        "OLD PRICE":  "",
+        "image_url":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQop3r0zfI8FP1ifL74je9lUE2RIZMu58ERk_GjQNezolgD6W9zkda3tRw\u0026s=10"
+    },
+    {
+        "GENDER":  "MENS",
+        "SERVICE_NAME":  "FACIAL",
+        "SERVICE":  "Wine",
+        "TYPE":  "",
+        "PRICE":  "1000",
+        "OLD PRICE":  "",
+        "image_url":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQop3r0zfI8FP1ifL74je9lUE2RIZMu58ERk_GjQNezolgD6W9zkda3tRw\u0026s=10"
+    },
+    {
+        "GENDER":  "MENS",
+        "SERVICE_NAME":  "FACIAL",
+        "SERVICE":  "Skin Whitening",
+        "TYPE":  "",
+        "PRICE":  "1200 - 1500",
+        "OLD PRICE":  "",
+        "image_url":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQop3r0zfI8FP1ifL74je9lUE2RIZMu58ERk_GjQNezolgD6W9zkda3tRw\u0026s=10"
+    },
+    {
+        "GENDER":  "MENS",
+        "SERVICE_NAME":  "FACIAL",
+        "SERVICE":  "Skin Brightning",
+        "TYPE":  "",
+        "PRICE":  "1200 - 1500",
+        "OLD PRICE":  "",
+        "image_url":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQop3r0zfI8FP1ifL74je9lUE2RIZMu58ERk_GjQNezolgD6W9zkda3tRw\u0026s=10"
+    },
+    {
+        "GENDER":  "MENS",
+        "SERVICE_NAME":  "FACIAL",
+        "SERVICE":  "Skin Glow",
+        "TYPE":  "",
+        "PRICE":  "1200 - 1500",
+        "OLD PRICE":  "",
+        "image_url":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQop3r0zfI8FP1ifL74je9lUE2RIZMu58ERk_GjQNezolgD6W9zkda3tRw\u0026s=10"
+    },
+    {
+        "GENDER":  "MENS",
+        "SERVICE_NAME":  "FACIAL",
+        "SERVICE":  "Silver Bright",
+        "TYPE":  "",
+        "PRICE":  "1300",
+        "OLD PRICE":  "",
+        "image_url":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQop3r0zfI8FP1ifL74je9lUE2RIZMu58ERk_GjQNezolgD6W9zkda3tRw\u0026s=10"
+    },
+    {
+        "GENDER":  "MENS",
+        "SERVICE_NAME":  "FACIAL",
+        "SERVICE":  "Biotique",
+        "TYPE":  "",
+        "PRICE":  "1300",
+        "OLD PRICE":  "",
+        "image_url":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQop3r0zfI8FP1ifL74je9lUE2RIZMu58ERk_GjQNezolgD6W9zkda3tRw\u0026s=10"
+    },
+    {
+        "GENDER":  "MENS",
+        "SERVICE_NAME":  "FACIAL",
+        "SERVICE":  "Gold Facial Nature",
+        "TYPE":  "",
+        "PRICE":  "1500",
+        "OLD PRICE":  "",
+        "image_url":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQop3r0zfI8FP1ifL74je9lUE2RIZMu58ERk_GjQNezolgD6W9zkda3tRw\u0026s=10"
+    },
+    {
+        "GENDER":  "MENS",
+        "SERVICE_NAME":  "FACIAL",
+        "SERVICE":  "Oxygen",
+        "TYPE":  "",
+        "PRICE":  "2000",
+        "OLD PRICE":  "",
+        "image_url":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQop3r0zfI8FP1ifL74je9lUE2RIZMu58ERk_GjQNezolgD6W9zkda3tRw\u0026s=10"
+    },
+    {
+        "GENDER":  "MENS",
+        "SERVICE_NAME":  "FACIAL",
+        "SERVICE":  "Shahnas Facial Gold",
+        "TYPE":  "",
+        "PRICE":  "3000",
+        "OLD PRICE":  "",
+        "image_url":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQop3r0zfI8FP1ifL74je9lUE2RIZMu58ERk_GjQNezolgD6W9zkda3tRw\u0026s=10"
+    },
+    {
+        "GENDER":  "MENS",
+        "SERVICE_NAME":  "FACIAL",
+        "SERVICE":  "03+Facial",
+        "TYPE":  "",
+        "PRICE":  "3500",
+        "OLD PRICE":  "",
+        "image_url":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQop3r0zfI8FP1ifL74je9lUE2RIZMu58ERk_GjQNezolgD6W9zkda3tRw\u0026s=10"
+    },
+    {
+        "GENDER":  "",
+        "SERVICE_NAME":  "",
+        "SERVICE":  "",
+        "TYPE":  "",
+        "PRICE":  "",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "MENS",
+        "SERVICE_NAME":  "OIL MASSAGE",
+        "SERVICE":  "Shahnas (Professional Oil)",
+        "TYPE":  "",
+        "PRICE":  "300",
+        "OLD PRICE":  "",
+        "image_url":  "https://i-media.vyaparify.com/vcards/services/9537/oil-massage.jpg"
+    },
+    {
+        "GENDER":  "MENS",
+        "SERVICE_NAME":  "OIL MASSAGE",
+        "SERVICE":  "Almond (Root Strong)",
+        "TYPE":  "",
+        "PRICE":  "300",
+        "OLD PRICE":  "",
+        "image_url":  "https://i-media.vyaparify.com/vcards/services/9537/oil-massage.jpg"
+    },
+    {
+        "GENDER":  "MENS",
+        "SERVICE_NAME":  "OIL MASSAGE",
+        "SERVICE":  "Olive Oil (Root Black Shine)",
+        "TYPE":  "",
+        "PRICE":  "300",
+        "OLD PRICE":  "",
+        "image_url":  "https://i-media.vyaparify.com/vcards/services/9537/oil-massage.jpg"
+    },
+    {
+        "GENDER":  "MENS",
+        "SERVICE_NAME":  "OIL MASSAGE",
+        "SERVICE":  "Hair Wash (Only)",
+        "TYPE":  "",
+        "PRICE":  "60",
+        "OLD PRICE":  "",
+        "image_url":  "https://i-media.vyaparify.com/vcards/services/9537/oil-massage.jpg"
+    },
+    {
+        "GENDER":  "MENS",
+        "SERVICE_NAME":  "OIL MASSAGE",
+        "SERVICE":  "Navaratna (Total Body Cool)",
+        "TYPE":  "",
+        "PRICE":  "150",
+        "OLD PRICE":  "",
+        "image_url":  "https://i-media.vyaparify.com/vcards/services/9537/oil-massage.jpg"
+    },
+    {
+        "GENDER":  "MENS",
+        "SERVICE_NAME":  "OIL MASSAGE",
+        "SERVICE":  "Amla (Hair Fall Stoped)",
+        "TYPE":  "",
+        "PRICE":  "200",
+        "OLD PRICE":  "",
+        "image_url":  "https://i-media.vyaparify.com/vcards/services/9537/oil-massage.jpg"
+    },
+    {
+        "GENDER":  "MENS",
+        "SERVICE_NAME":  "OIL MASSAGE",
+        "SERVICE":  "Gingelly Oil (Body \u0026 Eyes Cool)",
+        "TYPE":  "",
+        "PRICE":  "200",
+        "OLD PRICE":  "",
+        "image_url":  "https://i-media.vyaparify.com/vcards/services/9537/oil-massage.jpg"
+    },
+    {
+        "GENDER":  "",
+        "SERVICE_NAME":  "",
+        "SERVICE":  "",
+        "TYPE":  "",
+        "PRICE":  "",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "MENS",
+        "SERVICE_NAME":  "FACIAL",
+        "SERVICE":  "Charcoal Facial",
+        "TYPE":  "",
+        "PRICE":  "1500",
+        "OLD PRICE":  "",
+        "image_url":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQop3r0zfI8FP1ifL74je9lUE2RIZMu58ERk_GjQNezolgD6W9zkda3tRw\u0026s=10"
+    },
+    {
+        "GENDER":  "MENS",
+        "SERVICE_NAME":  "FACIAL",
+        "SERVICE":  "Anti Aginiing Facial",
+        "TYPE":  "",
+        "PRICE":  "1300",
+        "OLD PRICE":  "",
+        "image_url":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQop3r0zfI8FP1ifL74je9lUE2RIZMu58ERk_GjQNezolgD6W9zkda3tRw\u0026s=10"
+    },
+    {
+        "GENDER":  "MENS",
+        "SERVICE_NAME":  "FACIAL",
+        "SERVICE":  "Gal Vanic Facial",
+        "TYPE":  "",
+        "PRICE":  "2000",
+        "OLD PRICE":  "",
+        "image_url":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQop3r0zfI8FP1ifL74je9lUE2RIZMu58ERk_GjQNezolgD6W9zkda3tRw\u0026s=10"
+    },
+    {
+        "GENDER":  "MENS",
+        "SERVICE_NAME":  "FACIAL",
+        "SERVICE":  "Detan Facial",
+        "TYPE":  "",
+        "PRICE":  "1500",
+        "OLD PRICE":  "",
+        "image_url":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQop3r0zfI8FP1ifL74je9lUE2RIZMu58ERk_GjQNezolgD6W9zkda3tRw\u0026s=10"
+    },
+    {
+        "GENDER":  "MENS",
+        "SERVICE_NAME":  "OIL MASSAGE",
+        "SERVICE":  "Coconut Oil (Hair Healthy)",
+        "TYPE":  "",
+        "PRICE":  "200",
+        "OLD PRICE":  "",
+        "image_url":  "https://i-media.vyaparify.com/vcards/services/9537/oil-massage.jpg"
+    },
+    {
+        "GENDER":  "MENS",
+        "SERVICE_NAME":  "OIL MASSAGE",
+        "SERVICE":  "All Oil Hot (Extra)",
+        "TYPE":  "",
+        "PRICE":  "50",
+        "OLD PRICE":  "",
+        "image_url":  "https://i-media.vyaparify.com/vcards/services/9537/oil-massage.jpg"
+    },
+    {
+        "GENDER":  "MENS",
+        "SERVICE_NAME":  "OIL MASSAGE",
+        "SERVICE":  "Steaming",
+        "TYPE":  "",
+        "PRICE":  "100",
+        "OLD PRICE":  "",
+        "image_url":  "https://i-media.vyaparify.com/vcards/services/9537/oil-massage.jpg"
+    },
+    {
+        "GENDER":  "MENS",
+        "SERVICE_NAME":  "OIL MASSAGE",
+        "SERVICE":  "Dandruff Treatment",
+        "TYPE":  "",
+        "PRICE":  "500",
+        "OLD PRICE":  "",
+        "image_url":  "https://i-media.vyaparify.com/vcards/services/9537/oil-massage.jpg"
+    },
+    {
+        "GENDER":  "MENS",
+        "SERVICE_NAME":  "OIL MASSAGE",
+        "SERVICE":  "Rose Marry Oil (Hair Re - Growth)",
+        "TYPE":  "",
+        "PRICE":  "500",
+        "OLD PRICE":  "",
+        "image_url":  "https://i-media.vyaparify.com/vcards/services/9537/oil-massage.jpg"
+    },
+    {
+        "GENDER":  "MENS",
+        "SERVICE_NAME":  "OIL MASSAGE",
+        "SERVICE":  "Biotiaque Anti (Hair Fall Treatment)",
+        "TYPE":  "",
+        "PRICE":  "500",
+        "OLD PRICE":  "",
+        "image_url":  "https://i-media.vyaparify.com/vcards/services/9537/oil-massage.jpg"
+    },
+    {
+        "GENDER":  "MENS",
+        "SERVICE_NAME":  "BLEACH",
+        "SERVICE":  "OXY Bleach",
+        "TYPE":  "",
+        "PRICE":  "350",
+        "OLD PRICE":  "",
+        "image_url":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY5OcT4kxsI0wcdOMspnCD5FJkZtyNANwaRZAZ5RdhgAI4tsBjcNasnUq8\u0026s=10"
+    },
+    {
+        "GENDER":  "MENS",
+        "SERVICE_NAME":  "BLEACH",
+        "SERVICE":  "Gold Bleach",
+        "TYPE":  "",
+        "PRICE":  "350",
+        "OLD PRICE":  "",
+        "image_url":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY5OcT4kxsI0wcdOMspnCD5FJkZtyNANwaRZAZ5RdhgAI4tsBjcNasnUq8\u0026s=10"
+    },
+    {
+        "GENDER":  "MENS",
+        "SERVICE_NAME":  "BLEACH",
+        "SERVICE":  "Fruit Bleach",
+        "TYPE":  "",
+        "PRICE":  "300",
+        "OLD PRICE":  "",
+        "image_url":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY5OcT4kxsI0wcdOMspnCD5FJkZtyNANwaRZAZ5RdhgAI4tsBjcNasnUq8\u0026s=10"
+    },
+    {
+        "GENDER":  "MENS",
+        "SERVICE_NAME":  "BLEACH",
+        "SERVICE":  "Detan",
+        "TYPE":  "",
+        "PRICE":  "400",
+        "OLD PRICE":  "",
+        "image_url":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY5OcT4kxsI0wcdOMspnCD5FJkZtyNANwaRZAZ5RdhgAI4tsBjcNasnUq8\u0026s=10"
+    },
+    {
+        "GENDER":  "MENS",
+        "SERVICE_NAME":  "BLEACH",
+        "SERVICE":  "Lacto Bleach",
+        "TYPE":  "",
+        "PRICE":  "300",
+        "OLD PRICE":  "",
+        "image_url":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY5OcT4kxsI0wcdOMspnCD5FJkZtyNANwaRZAZ5RdhgAI4tsBjcNasnUq8\u0026s=10"
+    },
+    {
+        "GENDER":  "MENS",
+        "SERVICE_NAME":  "BLEACH",
+        "SERVICE":  "Neck Bleach",
+        "TYPE":  "",
+        "PRICE":  "200",
+        "OLD PRICE":  "",
+        "image_url":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY5OcT4kxsI0wcdOMspnCD5FJkZtyNANwaRZAZ5RdhgAI4tsBjcNasnUq8\u0026s=10"
+    },
+    {
+        "GENDER":  "MENS",
+        "SERVICE_NAME":  "CLEAN UP",
+        "SERVICE":  "Fruit Clean Up",
+        "TYPE":  "",
+        "PRICE":  "300",
+        "OLD PRICE":  "",
+        "image_url":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc4swP7buhOnAoga99NVZGuzi93zqmmvDj7z8_UFftBIBdmGFcfbuZtTJ1\u0026s=10"
+    },
+    {
+        "GENDER":  "MENS",
+        "SERVICE_NAME":  "CLEAN UP",
+        "SERVICE":  "Wine Clean Up",
+        "TYPE":  "",
+        "PRICE":  "500",
+        "OLD PRICE":  "",
+        "image_url":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc4swP7buhOnAoga99NVZGuzi93zqmmvDj7z8_UFftBIBdmGFcfbuZtTJ1\u0026s=10"
+    },
+    {
+        "GENDER":  "MENS",
+        "SERVICE_NAME":  "CLEAN UP",
+        "SERVICE":  "Papaya Clean Up",
+        "TYPE":  "",
+        "PRICE":  "400",
+        "OLD PRICE":  "",
+        "image_url":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc4swP7buhOnAoga99NVZGuzi93zqmmvDj7z8_UFftBIBdmGFcfbuZtTJ1\u0026s=10"
+    },
+    {
+        "GENDER":  "MENS",
+        "SERVICE_NAME":  "CLEAN UP",
+        "SERVICE":  "Glow Clean Up",
+        "TYPE":  "",
+        "PRICE":  "600",
+        "OLD PRICE":  "",
+        "image_url":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc4swP7buhOnAoga99NVZGuzi93zqmmvDj7z8_UFftBIBdmGFcfbuZtTJ1\u0026s=10"
+    },
+    {
+        "GENDER":  "MENS",
+        "SERVICE_NAME":  "CLEAN UP",
+        "SERVICE":  "Gold Clean Up",
+        "TYPE":  "",
+        "PRICE":  "700",
+        "OLD PRICE":  "",
+        "image_url":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc4swP7buhOnAoga99NVZGuzi93zqmmvDj7z8_UFftBIBdmGFcfbuZtTJ1\u0026s=10"
+    },
+    {
+        "GENDER":  "",
+        "SERVICE_NAME":  "",
+        "SERVICE":  "",
+        "TYPE":  "",
+        "PRICE":  "",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "MENS",
+        "SERVICE_NAME":  "OTHER",
+        "SERVICE":  "Wats and Pimple Remove",
+        "TYPE":  "",
+        "PRICE":  "50 - 200",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "MENS",
+        "SERVICE_NAME":  "OTHER",
+        "SERVICE":  "Ear Punching",
+        "TYPE":  "",
+        "PRICE":  "100",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "MENS",
+        "SERVICE_NAME":  "PACKAGE OFFER",
+        "SERVICE":  "Hair Cut, Shaving, Oil Massage Face Wash",
+        "TYPE":  "",
+        "PRICE":  "449",
+        "OLD PRICE":  "490",
+        "image_url":  "https://onesociety.co.uk/cdn/shop/articles/featured-1772002761989.jpg?v=1772002958\u0026width=1600"
+    },
+    {
+        "GENDER":  "MENS",
+        "SERVICE_NAME":  "PACKAGE OFFER",
+        "SERVICE":  "Hair Cut, Shaving, Hair Wash, Face Wash Oil Massage",
+        "TYPE":  "",
+        "PRICE":  "500",
+        "OLD PRICE":  "550",
+        "image_url":  "https://onesociety.co.uk/cdn/shop/articles/featured-1772002761989.jpg?v=1772002958\u0026width=1600"
+    },
+    {
+        "GENDER":  "MENS",
+        "SERVICE_NAME":  "PACKAGE OFFER",
+        "SERVICE":  "Hair Cut, Shaving, Face Pack, Oil Massage, Hair Colour",
+        "TYPE":  "",
+        "PRICE":  "649",
+        "OLD PRICE":  "730",
+        "image_url":  "https://onesociety.co.uk/cdn/shop/articles/featured-1772002761989.jpg?v=1772002958\u0026width=1600"
+    },
+    {
+        "GENDER":  "MENS",
+        "SERVICE_NAME":  "PACKAGE OFFER",
+        "SERVICE":  "Hair Cut, Shaving, Fruit Bleach Herbal, Hair Wash",
+        "TYPE":  "",
+        "PRICE":  "549",
+        "OLD PRICE":  "600",
+        "image_url":  "https://onesociety.co.uk/cdn/shop/articles/featured-1772002761989.jpg?v=1772002958\u0026width=1600"
+    },
+    {
+        "GENDER":  "MENS",
+        "SERVICE_NAME":  "",
+        "SERVICE":  "",
+        "TYPE":  "",
+        "PRICE":  "",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "MENS",
+        "SERVICE_NAME":  "PACKAGE OFFER",
+        "SERVICE":  "Hair Cut \u0026 Shaving, Fruit Bleach Fruit Facial, Hair Wash Oil Massage",
+        "TYPE":  "",
+        "PRICE":  "1299",
+        "OLD PRICE":  "1400",
+        "image_url":  "https://onesociety.co.uk/cdn/shop/articles/featured-1772002761989.jpg?v=1772002958\u0026width=1600"
+    },
+    {
+        "GENDER":  "MENS",
+        "SERVICE_NAME":  "PACKAGE OFFER",
+        "SERVICE":  "Hair Cut \u0026 Shaving, Head Massage with Stream, Face Bleach Fruit, Facial Fruit Hair Wash",
+        "TYPE":  "",
+        "PRICE":  "1399",
+        "OLD PRICE":  "1500",
+        "image_url":  "https://onesociety.co.uk/cdn/shop/articles/featured-1772002761989.jpg?v=1772002958\u0026width=1600"
+    },
+    {
+        "GENDER":  "MENS",
+        "SERVICE_NAME":  "PACKAGE OFFER",
+        "SERVICE":  "Hair Cut \u0026 Shaving, No Amonia Black, (Loreal) with Hair Wash",
+        "TYPE":  "",
+        "PRICE":  "799",
+        "OLD PRICE":  "900",
+        "image_url":  "https://onesociety.co.uk/cdn/shop/articles/featured-1772002761989.jpg?v=1772002958\u0026width=1600"
+    },
+    {
+        "GENDER":  "MENS",
+        "SERVICE_NAME":  "PACKAGE OFFER",
+        "SERVICE":  "Hair Cut \u0026 Shaving, Herbal Oil Massage, Herbal Dye Black Normal, Herbal Bleach, Fruit Herbal Facial",
+        "TYPE":  "",
+        "PRICE":  "1499",
+        "OLD PRICE":  "1550",
+        "image_url":  "https://onesociety.co.uk/cdn/shop/articles/featured-1772002761989.jpg?v=1772002958\u0026width=1600"
+    },
+    {
+        "GENDER":  "MENS",
+        "SERVICE_NAME":  "",
+        "SERVICE":  "",
+        "TYPE":  "",
+        "PRICE":  "",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "MENS",
+        "SERVICE_NAME":  "PACKAGE OFFER",
+        "SERVICE":  "Hair Cut + Fruit Facial, Hair Spa, Hair Dye Herbal",
+        "TYPE":  "",
+        "PRICE":  "1399",
+        "OLD PRICE":  "1450",
+        "image_url":  "https://onesociety.co.uk/cdn/shop/articles/featured-1772002761989.jpg?v=1772002958\u0026width=1600"
+    },
+    {
+        "GENDER":  "MENS",
+        "SERVICE_NAME":  "PACKAGE OFFER",
+        "SERVICE":  "Hair Cut + Shaving, Almong Oil Massage, No Ammonia Black, Pearl Facial",
+        "TYPE":  "",
+        "PRICE":  "1549",
+        "OLD PRICE":  "1650",
+        "image_url":  "https://onesociety.co.uk/cdn/shop/articles/featured-1772002761989.jpg?v=1772002958\u0026width=1600"
+    },
+    {
+        "GENDER":  "MENS",
+        "SERVICE_NAME":  "PACKAGE OFFER",
+        "SERVICE":  "Hair Cut + Shaving, Almond Oil Massage, Fruit Bleach, Hair Wash, Facial Normal, Loreal Color",
+        "TYPE":  "",
+        "PRICE":  "1999",
+        "OLD PRICE":  "2100",
+        "image_url":  "https://onesociety.co.uk/cdn/shop/articles/featured-1772002761989.jpg?v=1772002958\u0026width=1600"
+    },
+    {
+        "GENDER":  "MENS",
+        "SERVICE_NAME":  "PACKAGE OFFER",
+        "SERVICE":  "Hair Cut + Shaving, Loreal Coloring + Fruit Bleach, Gold Facial + Hair Wash, Shanaz Oil Massage",
+        "TYPE":  "",
+        "PRICE":  "2899",
+        "OLD PRICE":  "3000",
+        "image_url":  "https://onesociety.co.uk/cdn/shop/articles/featured-1772002761989.jpg?v=1772002958\u0026width=1600"
+    },
+    {
+        "GENDER":  "",
+        "SERVICE_NAME":  "",
+        "SERVICE":  "",
+        "TYPE":  "",
+        "PRICE":  "",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "",
+        "SERVICE_NAME":  "",
+        "SERVICE":  "",
+        "TYPE":  "",
+        "PRICE":  "",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "MANICURE",
+        "SERVICE":  "Manicure",
+        "TYPE":  "",
+        "PRICE":  "250",
+        "OLD PRICE":  "",
+        "image_url":  "https://cdn2.stylecraze.com/wp-content/uploads/2018/10/Basic-Manicure.jpg.webp"
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "MANICURE",
+        "SERVICE":  "Spa Manicure with Pack",
+        "TYPE":  "",
+        "PRICE":  "500",
+        "OLD PRICE":  "",
+        "image_url":  "https://cdn2.stylecraze.com/wp-content/uploads/2018/10/Basic-Manicure.jpg.webp"
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "MANICURE",
+        "SERVICE":  "Crystal Manicure",
+        "TYPE":  "",
+        "PRICE":  "700",
+        "OLD PRICE":  "",
+        "image_url":  "https://cdn2.stylecraze.com/wp-content/uploads/2018/10/Basic-Manicure.jpg.webp"
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "OIL MASSAGE",
+        "SERVICE":  "Rosemary Oil (Hair Re-Growth)",
+        "TYPE":  "",
+        "PRICE":  "700",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "OIL MASSAGE",
+        "SERVICE":  "Almond Oil",
+        "TYPE":  "",
+        "PRICE":  "600",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "OIL MASSAGE",
+        "SERVICE":  "Coconut Oil",
+        "TYPE":  "",
+        "PRICE":  "500",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "OIL MASSAGE",
+        "SERVICE":  "Shahnas Oil",
+        "TYPE":  "",
+        "PRICE":  "600",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "OIL MASSAGE",
+        "SERVICE":  "Olive Oil",
+        "TYPE":  "",
+        "PRICE":  "600",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "OIL MASSAGE",
+        "SERVICE":  "Biotique Herbal Oil",
+        "TYPE":  "",
+        "PRICE":  "700",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "PEDICURE",
+        "SERVICE":  "Pedicure",
+        "TYPE":  "",
+        "PRICE":  "500",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "PEDICURE",
+        "SERVICE":  "Spa Pedicure with Pack",
+        "TYPE":  "",
+        "PRICE":  "700",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "PEDICURE",
+        "SERVICE":  "Crystal Pedicure",
+        "TYPE":  "",
+        "PRICE":  "1000",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "HAIR SPA",
+        "SERVICE":  "Hair Spa Loreal",
+        "TYPE":  "",
+        "PRICE":  "1000 - 1500",
+        "OLD PRICE":  "",
+        "image_url":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjV6ZP8ptn_0_dHqZLPFn2JxHr2C75KuBIu_fHtEsqwWL-P4rZRHofPUk\u0026s=10"
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "HAIR SPA",
+        "SERVICE":  "Dandruff Control",
+        "TYPE":  "",
+        "PRICE":  "1200",
+        "OLD PRICE":  "",
+        "image_url":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjV6ZP8ptn_0_dHqZLPFn2JxHr2C75KuBIu_fHtEsqwWL-P4rZRHofPUk\u0026s=10"
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "HAIR SPA",
+        "SERVICE":  "Matrix Spa",
+        "TYPE":  "",
+        "PRICE":  "1000 - 1500",
+        "OLD PRICE":  "",
+        "image_url":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjV6ZP8ptn_0_dHqZLPFn2JxHr2C75KuBIu_fHtEsqwWL-P4rZRHofPUk\u0026s=10"
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "HAIR SPA",
+        "SERVICE":  "Streax Spa",
+        "TYPE":  "",
+        "PRICE":  "700 - 1500",
+        "OLD PRICE":  "",
+        "image_url":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjV6ZP8ptn_0_dHqZLPFn2JxHr2C75KuBIu_fHtEsqwWL-P4rZRHofPUk\u0026s=10"
+    },
+    {
+        "GENDER":  "",
+        "SERVICE_NAME":  "",
+        "SERVICE":  "",
+        "TYPE":  "",
+        "PRICE":  "",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "HAIR STRAIGHTENING",
+        "SERVICE":  "Wash \u0026 Blow Dry",
+        "TYPE":  "",
+        "PRICE":  "500 - 800",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "HAIR STRAIGHTENING",
+        "SERVICE":  "Hair Ironing",
+        "TYPE":  "",
+        "PRICE":  "500 - 1500",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "HAIR STRAIGHTENING",
+        "SERVICE":  "Hair Curling",
+        "TYPE":  "",
+        "PRICE":  "1200",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "HAIR STRAIGHTENING",
+        "SERVICE":  "Hair Do Styling",
+        "TYPE":  "",
+        "PRICE":  "1000",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "HAIR STRAIGHTENING",
+        "SERVICE":  "Perming",
+        "TYPE":  "",
+        "PRICE":  "3000 - 9000",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "HAIR STRAIGHTENING",
+        "SERVICE":  "Straightening",
+        "TYPE":  "",
+        "PRICE":  "4000 - 10000",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "MAKEUP",
+        "SERVICE":  "Makeup",
+        "TYPE":  "",
+        "PRICE":  "1500",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "MAKEUP",
+        "SERVICE":  "Saree Dropping",
+        "TYPE":  "",
+        "PRICE":  "500",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "MAKEUP",
+        "SERVICE":  "Party Makeup",
+        "TYPE":  "",
+        "PRICE":  "3000",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "MAKEUP",
+        "SERVICE":  "Bridal Makeup",
+        "TYPE":  "",
+        "PRICE":  "5000 - 8000",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "MAKEUP",
+        "SERVICE":  "Bridal 2 Days Makeup",
+        "TYPE":  "",
+        "PRICE":  "15000 - 20000",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "MAKEUP",
+        "SERVICE":  "Saree Box Folding",
+        "TYPE":  "",
+        "PRICE":  "500",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "BODY MASSAGE",
+        "SERVICE":  "Foot Massage",
+        "TYPE":  "",
+        "PRICE":  "400",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "BODY MASSAGE",
+        "SERVICE":  "Arms Massage",
+        "TYPE":  "",
+        "PRICE":  "300",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "BODY MASSAGE",
+        "SERVICE":  "Back \u0026 Neck Massage",
+        "TYPE":  "",
+        "PRICE":  "500",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "BODY MASSAGE",
+        "SERVICE":  "Body Scrub",
+        "TYPE":  "",
+        "PRICE":  "1500",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "BODY MASSAGE",
+        "SERVICE":  "Body Massage",
+        "TYPE":  "",
+        "PRICE":  "2000",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "BODY MASSAGE",
+        "SERVICE":  "Body Facial",
+        "TYPE":  "",
+        "PRICE":  "5000",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "OTHER",
+        "SERVICE":  "Warts and Pimple Remove",
+        "TYPE":  "",
+        "PRICE":  "50 - 200",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "OTHER",
+        "SERVICE":  "Ear Punching",
+        "TYPE":  "",
+        "PRICE":  "100",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "",
+        "SERVICE_NAME":  "",
+        "SERVICE":  "",
+        "TYPE":  "",
+        "PRICE":  "",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "BLEACH",
+        "SERVICE":  "Upper Lip / Lower Lip",
+        "TYPE":  "Oxy",
+        "PRICE":  "120",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "BLEACH",
+        "SERVICE":  "Upper Lip / Lower Lip",
+        "TYPE":  "Fruit",
+        "PRICE":  "100",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "BLEACH",
+        "SERVICE":  "Upper Lip / Lower Lip",
+        "TYPE":  "Gold",
+        "PRICE":  "150",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "BLEACH",
+        "SERVICE":  "Face Bleach",
+        "TYPE":  "Oxy",
+        "PRICE":  "350",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "BLEACH",
+        "SERVICE":  "Face Bleach",
+        "TYPE":  "Fruit",
+        "PRICE":  "300",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "BLEACH",
+        "SERVICE":  "Face Bleach",
+        "TYPE":  "Gold",
+        "PRICE":  "400",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "BLEACH",
+        "SERVICE":  "Back Neck",
+        "TYPE":  "Oxy",
+        "PRICE":  "400",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "BLEACH",
+        "SERVICE":  "Back Neck",
+        "TYPE":  "Fruit",
+        "PRICE":  "350",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "BLEACH",
+        "SERVICE":  "Back Neck",
+        "TYPE":  "Gold",
+        "PRICE":  "450",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "BLEACH",
+        "SERVICE":  "Under Arms Bleach",
+        "TYPE":  "Oxy",
+        "PRICE":  "250",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "BLEACH",
+        "SERVICE":  "Under Arms Bleach",
+        "TYPE":  "Fruit",
+        "PRICE":  "300",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "BLEACH",
+        "SERVICE":  "Under Arms Bleach",
+        "TYPE":  "Gold",
+        "PRICE":  "350",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "BLEACH",
+        "SERVICE":  "Full Arms Bleach",
+        "TYPE":  "Oxy",
+        "PRICE":  "500",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "BLEACH",
+        "SERVICE":  "Full Arms Bleach",
+        "TYPE":  "Fruit",
+        "PRICE":  "400",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "BLEACH",
+        "SERVICE":  "Full Arms Bleach",
+        "TYPE":  "Gold",
+        "PRICE":  "600",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "BLEACH",
+        "SERVICE":  "Half Arms Bleach",
+        "TYPE":  "Oxy",
+        "PRICE":  "350",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "BLEACH",
+        "SERVICE":  "Half Arms Bleach",
+        "TYPE":  "Fruit",
+        "PRICE":  "300",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "BLEACH",
+        "SERVICE":  "Half Arms Bleach",
+        "TYPE":  "Gold",
+        "PRICE":  "400",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "BLEACH",
+        "SERVICE":  "Full Legs Bleach",
+        "TYPE":  "Oxy",
+        "PRICE":  "600",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "BLEACH",
+        "SERVICE":  "Full Legs Bleach",
+        "TYPE":  "Fruit",
+        "PRICE":  "500",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "BLEACH",
+        "SERVICE":  "Full Legs Bleach",
+        "TYPE":  "Gold",
+        "PRICE":  "700",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "BLEACH",
+        "SERVICE":  "Half Legs Bleach",
+        "TYPE":  "Oxy",
+        "PRICE":  "400",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "BLEACH",
+        "SERVICE":  "Half Legs Bleach",
+        "TYPE":  "Fruit",
+        "PRICE":  "300",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "BLEACH",
+        "SERVICE":  "Half Legs Bleach",
+        "TYPE":  "Gold",
+        "PRICE":  "500",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "BLEACH",
+        "SERVICE":  "Blouse Line",
+        "TYPE":  "Oxy",
+        "PRICE":  "350",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "BLEACH",
+        "SERVICE":  "Blouse Line",
+        "TYPE":  "Fruit",
+        "PRICE":  "300",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "BLEACH",
+        "SERVICE":  "Blouse Line",
+        "TYPE":  "Gold",
+        "PRICE":  "400",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "BLEACH",
+        "SERVICE":  "Full Body",
+        "TYPE":  "Oxy",
+        "PRICE":  "3000",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "BLEACH",
+        "SERVICE":  "Full Body",
+        "TYPE":  "Fruit",
+        "PRICE":  "2500",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "BLEACH",
+        "SERVICE":  "Full Body",
+        "TYPE":  "Gold",
+        "PRICE":  "3500",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "DETAN",
+        "SERVICE":  "Face \u0026 Neck",
+        "TYPE":  "",
+        "PRICE":  "400",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "DETAN",
+        "SERVICE":  "Raaga Deten",
+        "TYPE":  "",
+        "PRICE":  "400",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "DETAN",
+        "SERVICE":  "Lacto Bleach",
+        "TYPE":  "",
+        "PRICE":  "350",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "DETAN",
+        "SERVICE":  "Detan \u0026 Pack",
+        "TYPE":  "",
+        "PRICE":  "1000",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "CLEANUP",
+        "SERVICE":  "Fruit Cleanup",
+        "TYPE":  "",
+        "PRICE":  "350",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "CLEANUP",
+        "SERVICE":  "Papaya Cleanup",
+        "TYPE":  "",
+        "PRICE":  "400",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "CLEANUP",
+        "SERVICE":  "Skin Glow",
+        "TYPE":  "",
+        "PRICE":  "500",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "CLEANUP",
+        "SERVICE":  "Gold Cleanup",
+        "TYPE":  "",
+        "PRICE":  "600",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "CLEANUP",
+        "SERVICE":  "Diamond",
+        "TYPE":  "",
+        "PRICE":  "800",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "CLEANUP",
+        "SERVICE":  "Pila Mask",
+        "TYPE":  "",
+        "PRICE":  "1000",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "",
+        "SERVICE_NAME":  "",
+        "SERVICE":  "",
+        "TYPE":  "",
+        "PRICE":  "",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "THREADING",
+        "SERVICE":  "Eyebrows",
+        "TYPE":  "",
+        "PRICE":  "40",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "THREADING",
+        "SERVICE":  "Upper Lip",
+        "TYPE":  "",
+        "PRICE":  "20",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "THREADING",
+        "SERVICE":  "Forehead",
+        "TYPE":  "",
+        "PRICE":  "20",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "THREADING",
+        "SERVICE":  "Chin",
+        "TYPE":  "",
+        "PRICE":  "30",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "THREADING",
+        "SERVICE":  "Side Face",
+        "TYPE":  "",
+        "PRICE":  "60",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "THREADING",
+        "SERVICE":  "Full Face Threading",
+        "TYPE":  "",
+        "PRICE":  "150",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "WAXING",
+        "SERVICE":  "Upper Lip Wax",
+        "TYPE":  "Honey Wax",
+        "PRICE":  "50",
+        "OLD PRICE":  "",
+        "image_url":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5IW5s1fmfNCWVZqRjv2aYlQyx_kBs5JXBDOrkxLJRoxuWfEeJ468LCHU\u0026s=10"
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "WAXING",
+        "SERVICE":  "Upper Lip Wax",
+        "TYPE":  "Rice Wax",
+        "PRICE":  "100",
+        "OLD PRICE":  "",
+        "image_url":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5IW5s1fmfNCWVZqRjv2aYlQyx_kBs5JXBDOrkxLJRoxuWfEeJ468LCHU\u0026s=10"
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "WAXING",
+        "SERVICE":  "Chin Wax",
+        "TYPE":  "Honey Wax",
+        "PRICE":  "60",
+        "OLD PRICE":  "",
+        "image_url":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5IW5s1fmfNCWVZqRjv2aYlQyx_kBs5JXBDOrkxLJRoxuWfEeJ468LCHU\u0026s=10"
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "WAXING",
+        "SERVICE":  "Chin Wax",
+        "TYPE":  "Rice Wax",
+        "PRICE":  "120",
+        "OLD PRICE":  "",
+        "image_url":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5IW5s1fmfNCWVZqRjv2aYlQyx_kBs5JXBDOrkxLJRoxuWfEeJ468LCHU\u0026s=10"
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "WAXING",
+        "SERVICE":  "Cheeks Wax",
+        "TYPE":  "Honey Wax",
+        "PRICE":  "50",
+        "OLD PRICE":  "",
+        "image_url":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5IW5s1fmfNCWVZqRjv2aYlQyx_kBs5JXBDOrkxLJRoxuWfEeJ468LCHU\u0026s=10"
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "WAXING",
+        "SERVICE":  "Cheeks Wax",
+        "TYPE":  "Rice Wax",
+        "PRICE":  "100",
+        "OLD PRICE":  "",
+        "image_url":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5IW5s1fmfNCWVZqRjv2aYlQyx_kBs5JXBDOrkxLJRoxuWfEeJ468LCHU\u0026s=10"
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "WAXING",
+        "SERVICE":  "Full Face Wax",
+        "TYPE":  "Honey Wax",
+        "PRICE":  "250",
+        "OLD PRICE":  "",
+        "image_url":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5IW5s1fmfNCWVZqRjv2aYlQyx_kBs5JXBDOrkxLJRoxuWfEeJ468LCHU\u0026s=10"
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "WAXING",
+        "SERVICE":  "Full Face Wax",
+        "TYPE":  "Rice Wax",
+        "PRICE":  "350",
+        "OLD PRICE":  "",
+        "image_url":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5IW5s1fmfNCWVZqRjv2aYlQyx_kBs5JXBDOrkxLJRoxuWfEeJ468LCHU\u0026s=10"
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "WAXING",
+        "SERVICE":  "Under Arms Wax",
+        "TYPE":  "Honey Wax",
+        "PRICE":  "100",
+        "OLD PRICE":  "",
+        "image_url":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5IW5s1fmfNCWVZqRjv2aYlQyx_kBs5JXBDOrkxLJRoxuWfEeJ468LCHU\u0026s=10"
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "WAXING",
+        "SERVICE":  "Under Arms Wax",
+        "TYPE":  "Rice Wax",
+        "PRICE":  "200",
+        "OLD PRICE":  "",
+        "image_url":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5IW5s1fmfNCWVZqRjv2aYlQyx_kBs5JXBDOrkxLJRoxuWfEeJ468LCHU\u0026s=10"
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "WAXING",
+        "SERVICE":  "Full Arms Wax",
+        "TYPE":  "Honey Wax",
+        "PRICE":  "300",
+        "OLD PRICE":  "",
+        "image_url":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5IW5s1fmfNCWVZqRjv2aYlQyx_kBs5JXBDOrkxLJRoxuWfEeJ468LCHU\u0026s=10"
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "WAXING",
+        "SERVICE":  "Full Arms Wax",
+        "TYPE":  "Rice Wax",
+        "PRICE":  "500",
+        "OLD PRICE":  "",
+        "image_url":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5IW5s1fmfNCWVZqRjv2aYlQyx_kBs5JXBDOrkxLJRoxuWfEeJ468LCHU\u0026s=10"
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "WAXING",
+        "SERVICE":  "Half Arms Wax",
+        "TYPE":  "Honey Wax",
+        "PRICE":  "150",
+        "OLD PRICE":  "",
+        "image_url":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5IW5s1fmfNCWVZqRjv2aYlQyx_kBs5JXBDOrkxLJRoxuWfEeJ468LCHU\u0026s=10"
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "WAXING",
+        "SERVICE":  "Half Arms Wax",
+        "TYPE":  "Rice Wax",
+        "PRICE":  "300",
+        "OLD PRICE":  "",
+        "image_url":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5IW5s1fmfNCWVZqRjv2aYlQyx_kBs5JXBDOrkxLJRoxuWfEeJ468LCHU\u0026s=10"
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "WAXING",
+        "SERVICE":  "3 - 4 Arms",
+        "TYPE":  "Honey Wax",
+        "PRICE":  "250",
+        "OLD PRICE":  "",
+        "image_url":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5IW5s1fmfNCWVZqRjv2aYlQyx_kBs5JXBDOrkxLJRoxuWfEeJ468LCHU\u0026s=10"
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "WAXING",
+        "SERVICE":  "3 - 4 Arms",
+        "TYPE":  "Rice Wax",
+        "PRICE":  "400",
+        "OLD PRICE":  "",
+        "image_url":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5IW5s1fmfNCWVZqRjv2aYlQyx_kBs5JXBDOrkxLJRoxuWfEeJ468LCHU\u0026s=10"
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "WAXING",
+        "SERVICE":  "Full Legs Wax",
+        "TYPE":  "Honey Wax",
+        "PRICE":  "600",
+        "OLD PRICE":  "",
+        "image_url":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5IW5s1fmfNCWVZqRjv2aYlQyx_kBs5JXBDOrkxLJRoxuWfEeJ468LCHU\u0026s=10"
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "WAXING",
+        "SERVICE":  "Full Legs Wax",
+        "TYPE":  "Rice Wax",
+        "PRICE":  "1000",
+        "OLD PRICE":  "",
+        "image_url":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5IW5s1fmfNCWVZqRjv2aYlQyx_kBs5JXBDOrkxLJRoxuWfEeJ468LCHU\u0026s=10"
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "WAXING",
+        "SERVICE":  "Half Legs Wax",
+        "TYPE":  "Honey Wax",
+        "PRICE":  "300",
+        "OLD PRICE":  "",
+        "image_url":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5IW5s1fmfNCWVZqRjv2aYlQyx_kBs5JXBDOrkxLJRoxuWfEeJ468LCHU\u0026s=10"
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "WAXING",
+        "SERVICE":  "Half Legs Wax",
+        "TYPE":  "Rice Wax",
+        "PRICE":  "500",
+        "OLD PRICE":  "",
+        "image_url":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5IW5s1fmfNCWVZqRjv2aYlQyx_kBs5JXBDOrkxLJRoxuWfEeJ468LCHU\u0026s=10"
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "WAXING",
+        "SERVICE":  "Blouse Line Wax",
+        "TYPE":  "Honey Wax",
+        "PRICE":  "300",
+        "OLD PRICE":  "",
+        "image_url":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5IW5s1fmfNCWVZqRjv2aYlQyx_kBs5JXBDOrkxLJRoxuWfEeJ468LCHU\u0026s=10"
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "WAXING",
+        "SERVICE":  "Blouse Line Wax",
+        "TYPE":  "Rice Wax",
+        "PRICE":  "600",
+        "OLD PRICE":  "",
+        "image_url":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5IW5s1fmfNCWVZqRjv2aYlQyx_kBs5JXBDOrkxLJRoxuWfEeJ468LCHU\u0026s=10"
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "WAXING",
+        "SERVICE":  "Full Body Waxing",
+        "TYPE":  "Honey Wax",
+        "PRICE":  "2500",
+        "OLD PRICE":  "",
+        "image_url":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5IW5s1fmfNCWVZqRjv2aYlQyx_kBs5JXBDOrkxLJRoxuWfEeJ468LCHU\u0026s=10"
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "WAXING",
+        "SERVICE":  "Full Body Waxing",
+        "TYPE":  "Rice Wax",
+        "PRICE":  "3500",
+        "OLD PRICE":  "",
+        "image_url":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5IW5s1fmfNCWVZqRjv2aYlQyx_kBs5JXBDOrkxLJRoxuWfEeJ468LCHU\u0026s=10"
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "WAXING",
+        "SERVICE":  "Bigini",
+        "TYPE":  "Honey Wax",
+        "PRICE":  "1500",
+        "OLD PRICE":  "",
+        "image_url":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5IW5s1fmfNCWVZqRjv2aYlQyx_kBs5JXBDOrkxLJRoxuWfEeJ468LCHU\u0026s=10"
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "WAXING",
+        "SERVICE":  "Bigini",
+        "TYPE":  "Rice Wax",
+        "PRICE":  "2000",
+        "OLD PRICE":  "",
+        "image_url":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5IW5s1fmfNCWVZqRjv2aYlQyx_kBs5JXBDOrkxLJRoxuWfEeJ468LCHU\u0026s=10"
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "WAXING",
+        "SERVICE":  "Stomach",
+        "TYPE":  "Honey Wax",
+        "PRICE":  "300",
+        "OLD PRICE":  "",
+        "image_url":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5IW5s1fmfNCWVZqRjv2aYlQyx_kBs5JXBDOrkxLJRoxuWfEeJ468LCHU\u0026s=10"
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "WAXING",
+        "SERVICE":  "Stomach",
+        "TYPE":  "Rice Wax",
+        "PRICE":  "600",
+        "OLD PRICE":  "",
+        "image_url":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5IW5s1fmfNCWVZqRjv2aYlQyx_kBs5JXBDOrkxLJRoxuWfEeJ468LCHU\u0026s=10"
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "WAXING",
+        "SERVICE":  "Lower Back",
+        "TYPE":  "Honey Wax",
+        "PRICE":  "300",
+        "OLD PRICE":  "",
+        "image_url":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5IW5s1fmfNCWVZqRjv2aYlQyx_kBs5JXBDOrkxLJRoxuWfEeJ468LCHU\u0026s=10"
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "WAXING",
+        "SERVICE":  "Lower Back",
+        "TYPE":  "Rice Wax",
+        "PRICE":  "600",
+        "OLD PRICE":  "",
+        "image_url":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5IW5s1fmfNCWVZqRjv2aYlQyx_kBs5JXBDOrkxLJRoxuWfEeJ468LCHU\u0026s=10"
+    },
+    {
+        "GENDER":  "",
+        "SERVICE_NAME":  "",
+        "SERVICE":  "",
+        "TYPE":  "",
+        "PRICE":  "",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "KIDS CUT",
+        "SERVICE":  "Mushroom Cut",
+        "TYPE":  "",
+        "PRICE":  "200",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "KIDS CUT",
+        "SERVICE":  "Baby Cut",
+        "TYPE":  "",
+        "PRICE":  "200",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "KIDS CUT",
+        "SERVICE":  "Pop Cut",
+        "TYPE":  "",
+        "PRICE":  "200",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "KIDS CUT",
+        "SERVICE":  "Dora Cut",
+        "TYPE":  "",
+        "PRICE":  "200",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "KIDS CUT",
+        "SERVICE":  "Shairi Cut",
+        "TYPE":  "",
+        "PRICE":  "200",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "KIDS CUT",
+        "SERVICE":  "Baby Shalini Cutting",
+        "TYPE":  "",
+        "PRICE":  "200",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "KIDS CUT",
+        "SERVICE":  "Ladies Boy Cutting",
+        "TYPE":  "",
+        "PRICE":  "250",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "HAIR CUT",
+        "SERVICE":  "Straight Cut",
+        "TYPE":  "",
+        "PRICE":  "150",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "HAIR CUT",
+        "SERVICE":  "U Cut",
+        "TYPE":  "",
+        "PRICE":  "200",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "HAIR CUT",
+        "SERVICE":  "Deep U Cut",
+        "TYPE":  "",
+        "PRICE":  "250",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "HAIR CUT",
+        "SERVICE":  "V Cut",
+        "TYPE":  "",
+        "PRICE":  "300",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "HAIR CUT",
+        "SERVICE":  "Feather Cut",
+        "TYPE":  "",
+        "PRICE":  "600",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "HAIR CUT",
+        "SERVICE":  "Step Cut",
+        "TYPE":  "",
+        "PRICE":  "600",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "HAIR CUT",
+        "SERVICE":  "Layer Cut",
+        "TYPE":  "",
+        "PRICE":  "600",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "HAIR CUT",
+        "SERVICE":  "Creative Cut",
+        "TYPE":  "",
+        "PRICE":  "600",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "HAIR CUT",
+        "SERVICE":  "Front Cut",
+        "TYPE":  "",
+        "PRICE":  "100",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "HAIR COLOURING",
+        "SERVICE":  "Black Henna",
+        "TYPE":  "",
+        "PRICE":  "500 - 1200",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "HAIR COLOURING",
+        "SERVICE":  "Brown Henna",
+        "TYPE":  "",
+        "PRICE":  "600 - 1200",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "HAIR COLOURING",
+        "SERVICE":  "Loreal No Ammonia",
+        "TYPE":  "",
+        "PRICE":  "1000 - 3000",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "HAIR COLOURING",
+        "SERVICE":  "Garniyar Ammonia Free",
+        "TYPE":  "",
+        "PRICE":  "500 - 2000",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "HAIR COLOURING",
+        "SERVICE":  "Highlights One Line",
+        "TYPE":  "",
+        "PRICE":  "300",
+        "OLD PRICE":  "",
+        "image_url":  ""
+    },
+    {
+        "GENDER":  "WOMEN",
+        "SERVICE_NAME":  "HAIR COLOURING",
+        "SERVICE":  "Your Product Hair Colour",
+        "TYPE":  "",
+        "PRICE":  "300",
+        "OLD PRICE":  "",
+        "image_url":  null
+    }
+]
