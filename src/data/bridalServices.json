@@ -1,0 +1,203 @@
+[
+  {
+    "id": "hair-styling",
+    "title": "Hair Styling",
+    "icon": "✂️",
+    "services": [
+      { "name": "Wash & Blow Dry", "price": "₹500 – ₹800" },
+      { "name": "Hair Ironing", "price": "₹500 – ₹1,500" },
+      { "name": "Hair Curling", "price": "₹1,200" },
+      { "name": "Hair Do Styling", "price": "₹1,000" },
+      { "name": "Perming", "price": "₹3,000 – ₹9,000" },
+      { "name": "Straightening", "price": "₹4,000 – ₹10,000" }
+    ]
+  },
+  {
+    "id": "makeup",
+    "title": "Makeup Services",
+    "icon": "💄",
+    "services": [
+      { "name": "Makeup", "price": "₹1,500" },
+      { "name": "Saree Draping", "price": "₹500" },
+      { "name": "Party Makeup", "price": "₹3,000" },
+      { "name": "Bridal Makeup", "price": "₹5,000 – ₹8,000" },
+      { "name": "Bridal 2 Days Makeup", "price": "₹15,000 – ₹20,000" },
+      { "name": "Saree Box Folding", "price": "₹500" }
+    ]
+  },
+  {
+    "id": "body-care",
+    "title": "Body Care",
+    "icon": "🛁",
+    "services": [
+      { "name": "Foot Massage", "price": "₹400" },
+      { "name": "Arms Massage", "price": "₹300" },
+      { "name": "Back & Neck Massage", "price": "₹500" },
+      { "name": "Body Scrub", "price": "₹1,500" },
+      { "name": "Body Massage", "price": "₹2,000" },
+      { "name": "Body Facial", "price": "₹5,000" }
+    ]
+  },
+  {
+    "id": "beauty",
+    "title": "Beauty Services",
+    "icon": "✨",
+    "services": [
+      { "name": "Warts & Pimple Removal", "price": "₹50 – ₹200" },
+      { "name": "Ear Punching", "price": "₹100" }
+    ]
+  },
+  {
+    "id": "bleach",
+    "title": "Bleach Services",
+    "icon": "🌿",
+    "subCategories": [
+      {
+        "title": "Lip Bleach",
+        "brands": ["Oxy", "Fruit", "Gold"],
+        "rows": [
+          { "label": "Oxy", "price": "₹80" },
+          { "label": "Fruit", "price": "₹80" },
+          { "label": "Gold", "price": "₹100" }
+        ]
+      },
+      {
+        "title": "Face Bleach",
+        "rows": [
+          { "label": "Oxy", "price": "₹350" },
+          { "label": "Fruit", "price": "₹300" },
+          { "label": "Gold", "price": "₹400" }
+        ]
+      },
+      {
+        "title": "Back Neck Bleach",
+        "rows": [
+          { "label": "Oxy", "price": "₹200" },
+          { "label": "Fruit", "price": "₹180" },
+          { "label": "Gold", "price": "₹250" }
+        ]
+      },
+      {
+        "title": "Under Arms Bleach",
+        "rows": [
+          { "label": "Oxy", "price": "₹150" },
+          { "label": "Fruit", "price": "₹140" },
+          { "label": "Gold", "price": "₹180" }
+        ]
+      },
+      {
+        "title": "Full Arms Bleach",
+        "rows": [
+          { "label": "Oxy", "price": "₹350" },
+          { "label": "Fruit", "price": "₹320" },
+          { "label": "Gold", "price": "₹400" }
+        ]
+      },
+      {
+        "title": "Half Arms Bleach",
+        "rows": [
+          { "label": "Oxy", "price": "₹250" },
+          { "label": "Fruit", "price": "₹230" },
+          { "label": "Gold", "price": "₹280" }
+        ]
+      },
+      {
+        "title": "Full Legs Bleach",
+        "rows": [
+          { "label": "Oxy", "price": "₹500" },
+          { "label": "Fruit", "price": "₹450" },
+          { "label": "Gold", "price": "₹600" }
+        ]
+      },
+      {
+        "title": "Half Legs Bleach",
+        "rows": [
+          { "label": "Oxy", "price": "₹350" },
+          { "label": "Fruit", "price": "₹320" },
+          { "label": "Gold", "price": "₹400" }
+        ]
+      },
+      {
+        "title": "Blouse Line Bleach",
+        "rows": [
+          { "label": "Oxy", "price": "₹200" },
+          { "label": "Fruit", "price": "₹180" },
+          { "label": "Gold", "price": "₹230" }
+        ]
+      },
+      {
+        "title": "Full Body Bleach",
+        "rows": [
+          { "label": "Oxy", "price": "₹1,500" },
+          { "label": "Fruit", "price": "₹1,400" },
+          { "label": "Gold", "price": "₹1,800" }
+        ]
+      }
+    ],
+    "services": []
+  },
+  {
+    "id": "detan",
+    "title": "De-Tan",
+    "icon": "☀️",
+    "services": [
+      { "name": "Face & Neck", "price": "₹400" },
+      { "name": "Raaga Detan", "price": "₹400" },
+      { "name": "Lacto Bleach", "price": "₹350" },
+      { "name": "Detan & Pack", "price": "₹1,000" }
+    ]
+  },
+  {
+    "id": "cleanup",
+    "title": "Cleanup",
+    "icon": "🧴",
+    "services": [
+      { "name": "Fruit Cleanup", "price": "₹350" },
+      { "name": "Papaya Cleanup", "price": "₹400" },
+      { "name": "Skin Glow", "price": "₹500" },
+      { "name": "Gold Cleanup", "price": "₹600" },
+      { "name": "Diamond", "price": "₹800" },
+      { "name": "Pila Mask", "price": "₹1,000" }
+    ]
+  },
+  {
+    "id": "threading",
+    "title": "Threading",
+    "icon": "🧵",
+    "services": [
+      { "name": "Eyebrows", "price": "₹40" },
+      { "name": "Upper Lip", "price": "₹20" },
+      { "name": "Forehead", "price": "₹20" },
+      { "name": "Chin", "price": "₹30" },
+      { "name": "Side Face", "price": "₹60" },
+      { "name": "Full Face Threading", "price": "₹150" }
+    ]
+  },
+  {
+    "id": "waxing",
+    "title": "Waxing",
+    "icon": "🌸",
+    "subCategories": [
+      {
+        "title": "",
+        "rows": [
+          { "label": "Upper Lip Wax", "price": "₹40", "price2": "₹60" },
+          { "label": "Chin Wax", "price": "₹40", "price2": "₹60" },
+          { "label": "Cheeks Wax", "price": "₹60", "price2": "₹80" },
+          { "label": "Full Face Wax", "price": "₹150", "price2": "₹200" },
+          { "label": "Under Arms Wax", "price": "₹80", "price2": "₹120" },
+          { "label": "Full Arms Wax", "price": "₹200", "price2": "₹300" },
+          { "label": "Half Arms Wax", "price": "₹150", "price2": "₹220" },
+          { "label": "Full Legs Wax", "price": "₹300", "price2": "₹450" },
+          { "label": "Half Legs Wax", "price": "₹200", "price2": "₹300" },
+          { "label": "Blouse Line Wax", "price": "₹100", "price2": "₹150" },
+          { "label": "Full Body Wax", "price": "₹1,200", "price2": "₹1,800" },
+          { "label": "Bikini Wax", "price": "₹300", "price2": "₹500" },
+          { "label": "Stomach Wax", "price": "₹150", "price2": "₹220" },
+          { "label": "Lower Back Wax", "price": "₹150", "price2": "₹220" }
+        ]
+      }
+    ],
+    "services": []
+  }
+]

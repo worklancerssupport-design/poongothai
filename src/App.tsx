@@ -17,6 +17,7 @@ import FloatingButtons from "@/components/FloatingButtons";
 import HairstyleCatalogue from "@/components/HairstyleCatalogue";
 import CursorGlow from "@/components/CursorGlow";
 import EditPage from "@/edit/EditPage";
+import DataTest from "@/components/DataTest";
 
 function HomePage() {
   const [isCatalogueOpen, setIsCatalogueOpen] = useState(false);
@@ -60,6 +61,7 @@ export default function App() {
     <Routes>
       <Route path="/" element={<HomePage />} />
       <Route path="/edit" element={<EditPage />} />
+      <Route path="/data-test" element={<DataTest />} />
     </Routes>
   );
 }

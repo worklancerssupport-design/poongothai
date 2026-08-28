@@ -1,0 +1,66 @@
+import { useState, useEffect } from "react";
+import { fetchSiteData, type SiteData } from "@/lib/fetchData";
+
+export default function DataTest() {
+  const [data, setData] = useState<SiteData | null>(null);
+  const [error, setError] = useState<string | null>(null);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    fetchSiteData()
+      .then(setData)
+      .catch((e) => setError(e.message))
+      .finally(() => setLoading(false));
+  }, []);
+
+  if (loading) return <div style={{ padding: 40 }}>Loading data from GitHub...</div>;
+  if (error) return <div style={{ padding: 40, color: "red" }}>Error: {error}</div>;
+  if (!data) return <div style={{ padding: 40 }}>No data</div>;
+
+  const checks = [
+    { label: "services", ok: Array.isArray(data.services) && data.services.length > 0, count: data.services.length },
+    { label: "packages", ok: Array.isArray(data.packages) && data.packages.length > 0, count: data.packages.length },
+    { label: "mensHairstyles", ok: Array.isArray(data.mensHairstyles) && data.mensHairstyles.length > 0, count: data.mensHairstyles.length },
+    { label: "womensHairstyles", ok: Array.isArray(data.womensHairstyles) && data.womensHairstyles.length > 0, count: data.womensHairstyles.length },
+    { label: "bridalCategories", ok: Array.isArray(data.bridalCategories) && data.bridalCategories.length > 0, count: data.bridalCategories.length },
+    { label: "testimonials", ok: Array.isArray(data.testimonials) && data.testimonials.length > 0, count: data.testimonials.length },
+    { label: "contact", ok: !!data.contact && !!data.contact.phone, count: 1 },
+    { label: "owner", ok: !!data.owner && !!data.owner.name, count: 1 },
+    { label: "catalogue", ok: Array.isArray(data.catalogue) && data.catalogue.length > 0, count: data.catalogue.length },
+  ];
+
+  const allPassed = checks.every((c) => c.ok);
+
+  return (
+    <div style={{ padding: 40, fontFamily: "monospace" }}>
+      <h1>Data Fetch Test</h1>
+      <p style={{ color: allPassed ? "green" : "red", fontWeight: "bold", fontSize: 18 }}>
+        {allPassed ? "ALL CHECKS PASSED" : "SOME CHECKS FAILED"}
+      </p>
+      <table style={{ borderCollapse: "collapse" }}>
+        <thead>
+          <tr>
+            <th style={{ textAlign: "left", padding: "8px 16px", borderBottom: "2px solid #333" }}>Data</th>
+            <th style={{ textAlign: "left", padding: "8px 16px", borderBottom: "2px solid #333" }}>Status</th>
+            <th style={{ textAlign: "right", padding: "8px 16px", borderBottom: "2px solid #333" }}>Count</th>
+          </tr>
+        </thead>
+        <tbody>
+          {checks.map((c) => (
+            <tr key={c.label}>
+              <td style={{ padding: "8px 16px", borderBottom: "1px solid #ddd" }}>{c.label}</td>
+              <td style={{ padding: "8px 16px", borderBottom: "1px solid #ddd", color: c.ok ? "green" : "red" }}>
+                {c.ok ? "OK" : "FAIL"}
+              </td>
+              <td style={{ padding: "8px 16px", borderBottom: "1px solid #ddd", textAlign: "right" }}>{c.count}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+      <h2 style={{ marginTop: 30 }}>Sample Data</h2>
+      <pre style={{ background: "#f5f5f5", padding: 16, overflow: "auto", maxHeight: 400 }}>
+        {JSON.stringify(data, null, 2).slice(0, 3000)}...
+      </pre>
+    </div>
+  );
+}
