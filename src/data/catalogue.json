@@ -99,15 +99,6 @@
         "image_url":  "https://cdn.shopify.com/s/files/1/0899/2676/2789/files/Classic_Crew_Cut.jpg?v=1730411406"
     },
     {
-        "GENDER":  "",
-        "SERVICE_NAME":  "",
-        "SERVICE":  "",
-        "TYPE":  "",
-        "PRICE":  "",
-        "OLD PRICE":  "",
-        "image_url":  ""
-    },
-    {
         "GENDER":  "MENS",
         "SERVICE_NAME":  "HAIR COLOURING",
         "SERVICE":  "Garnier (No Ammonia)",
@@ -196,15 +187,6 @@
         "PRICE":  "800",
         "OLD PRICE":  "",
         "image_url":  "https://content.jdmagicbox.com/comp/nellore/e6/9999px861.x861.190913191004.g5e6/catalogue/fresh-look-salon-jyothi-nagar-nellore-salons-3hzrgtkg1e.jpg"
-    },
-    {
-        "GENDER":  "",
-        "SERVICE_NAME":  "",
-        "SERVICE":  "",
-        "TYPE":  "",
-        "PRICE":  "",
-        "OLD PRICE":  "",
-        "image_url":  ""
     },
     {
         "GENDER":  "MENS",
@@ -360,15 +342,6 @@
         "image_url":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQop3r0zfI8FP1ifL74je9lUE2RIZMu58ERk_GjQNezolgD6W9zkda3tRw\u0026s=10"
     },
     {
-        "GENDER":  "",
-        "SERVICE_NAME":  "",
-        "SERVICE":  "",
-        "TYPE":  "",
-        "PRICE":  "",
-        "OLD PRICE":  "",
-        "image_url":  ""
-    },
-    {
         "GENDER":  "MENS",
         "SERVICE_NAME":  "OIL MASSAGE",
         "SERVICE":  "Shahnas (Professional Oil)",
@@ -430,15 +403,6 @@
         "PRICE":  "200",
         "OLD PRICE":  "",
         "image_url":  "https://i-media.vyaparify.com/vcards/services/9537/oil-massage.jpg"
-    },
-    {
-        "GENDER":  "",
-        "SERVICE_NAME":  "",
-        "SERVICE":  "",
-        "TYPE":  "",
-        "PRICE":  "",
-        "OLD PRICE":  "",
-        "image_url":  ""
     },
     {
         "GENDER":  "MENS",
@@ -630,15 +594,6 @@
         "image_url":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc4swP7buhOnAoga99NVZGuzi93zqmmvDj7z8_UFftBIBdmGFcfbuZtTJ1\u0026s=10"
     },
     {
-        "GENDER":  "",
-        "SERVICE_NAME":  "",
-        "SERVICE":  "",
-        "TYPE":  "",
-        "PRICE":  "",
-        "OLD PRICE":  "",
-        "image_url":  ""
-    },
-    {
         "GENDER":  "MENS",
         "SERVICE_NAME":  "OTHER",
         "SERVICE":  "Wats and Pimple Remove",
@@ -694,15 +649,6 @@
     },
     {
         "GENDER":  "MENS",
-        "SERVICE_NAME":  "",
-        "SERVICE":  "",
-        "TYPE":  "",
-        "PRICE":  "",
-        "OLD PRICE":  "",
-        "image_url":  ""
-    },
-    {
-        "GENDER":  "MENS",
         "SERVICE_NAME":  "PACKAGE OFFER",
         "SERVICE":  "Hair Cut \u0026 Shaving, Fruit Bleach Fruit Facial, Hair Wash Oil Massage",
         "TYPE":  "",
@@ -739,15 +685,6 @@
     },
     {
         "GENDER":  "MENS",
-        "SERVICE_NAME":  "",
-        "SERVICE":  "",
-        "TYPE":  "",
-        "PRICE":  "",
-        "OLD PRICE":  "",
-        "image_url":  ""
-    },
-    {
-        "GENDER":  "MENS",
         "SERVICE_NAME":  "PACKAGE OFFER",
         "SERVICE":  "Hair Cut + Fruit Facial, Hair Spa, Hair Dye Herbal",
         "TYPE":  "",
@@ -781,24 +718,6 @@
         "PRICE":  "2899",
         "OLD PRICE":  "3000",
         "image_url":  "https://onesociety.co.uk/cdn/shop/articles/featured-1772002761989.jpg?v=1772002958\u0026width=1600"
-    },
-    {
-        "GENDER":  "",
-        "SERVICE_NAME":  "",
-        "SERVICE":  "",
-        "TYPE":  "",
-        "PRICE":  "",
-        "OLD PRICE":  "",
-        "image_url":  ""
-    },
-    {
-        "GENDER":  "",
-        "SERVICE_NAME":  "",
-        "SERVICE":  "",
-        "TYPE":  "",
-        "PRICE":  "",
-        "OLD PRICE":  "",
-        "image_url":  ""
     },
     {
         "GENDER":  "WOMEN",
@@ -943,15 +862,6 @@
         "PRICE":  "700 - 1500",
         "OLD PRICE":  "",
         "image_url":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjV6ZP8ptn_0_dHqZLPFn2JxHr2C75KuBIu_fHtEsqwWL-P4rZRHofPUk\u0026s=10"
-    },
-    {
-        "GENDER":  "",
-        "SERVICE_NAME":  "",
-        "SERVICE":  "",
-        "TYPE":  "",
-        "PRICE":  "",
-        "OLD PRICE":  "",
-        "image_url":  ""
     },
     {
         "GENDER":  "WOMEN",

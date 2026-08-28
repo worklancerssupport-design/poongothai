@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Routes, Route } from "react-router-dom";
 import AnnouncementTicker from "@/components/AnnouncementTicker";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
@@ -15,8 +16,9 @@ import Footer from "@/components/Footer";
 import FloatingButtons from "@/components/FloatingButtons";
 import HairstyleCatalogue from "@/components/HairstyleCatalogue";
 import CursorGlow from "@/components/CursorGlow";
+import EditPage from "@/edit/EditPage";
 
-export default function App() {
+function HomePage() {
   const [isCatalogueOpen, setIsCatalogueOpen] = useState(false);
 
   const scrollToHairstyles = () => {
@@ -50,5 +52,14 @@ export default function App() {
         onClose={() => setIsCatalogueOpen(false)}
       />
     </>
+  );
+}
+
+export default function App() {
+  return (
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+      <Route path="/edit" element={<EditPage />} />
+    </Routes>
   );
 }

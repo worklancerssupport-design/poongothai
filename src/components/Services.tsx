@@ -1,7 +1,7 @@
 import { useState, useMemo, useRef } from "react";
 import { motion, AnimatePresence, useInView } from "framer-motion";
 import { Search, X, ArrowRight, Sparkles, IndianRupee, Scissors, ArrowUpRight } from "lucide-react";
-import { servicesData, type ServiceCategory, type ServiceItem } from "@/data/services";
+import { servicesData } from "@/data/services";
 
 const fmt = (n: number) => n.toLocaleString("en-IN");
 

@@ -24,7 +24,7 @@ export const mensHairstyles: Hairstyle[] = [
     bestFor: "Oval, Square, Diamond",
     maintenance: "Low",
     time: "30 min",
-    price: "₹150",
+    price: "150",
     suitableHair: "All Hair Types",
   },
   {
@@ -37,7 +37,7 @@ export const mensHairstyles: Hairstyle[] = [
     bestFor: "All Face Shapes",
     maintenance: "Low",
     time: "30 min",
-    price: "₹150",
+    price: "150",
     suitableHair: "All Hair Types",
   },
   {
@@ -50,7 +50,7 @@ export const mensHairstyles: Hairstyle[] = [
     bestFor: "Oval, Long",
     maintenance: "Medium",
     time: "35 min",
-    price: "₹150",
+    price: "150",
     suitableHair: "Straight, Wavy",
   },
   {
@@ -63,7 +63,7 @@ export const mensHairstyles: Hairstyle[] = [
     bestFor: "Oval, Diamond",
     maintenance: "High",
     time: "40 min",
-    price: "₹150",
+    price: "150",
     suitableHair: "All Hair Types",
   },
   {
@@ -89,7 +89,7 @@ export const mensHairstyles: Hairstyle[] = [
     bestFor: "Square, Oval",
     maintenance: "Low",
     time: "25 min",
-    price: "₹150",
+    price: "150",
     suitableHair: "All Hair Types",
   },
   {
@@ -102,7 +102,7 @@ export const mensHairstyles: Hairstyle[] = [
     bestFor: "All Face Shapes",
     maintenance: "Low",
     time: "30 min",
-    price: "₹150",
+    price: "150",
     suitableHair: "All Hair Types",
   },
   {
@@ -115,7 +115,7 @@ export const mensHairstyles: Hairstyle[] = [
     bestFor: "Round, Square",
     maintenance: "Low",
     time: "30 min",
-    price: "₹150",
+    price: "150",
     suitableHair: "Straight, Wavy",
   },
   {
@@ -128,7 +128,7 @@ export const mensHairstyles: Hairstyle[] = [
     bestFor: "Oval, Square",
     maintenance: "Low",
     time: "25 min",
-    price: "₹150",
+    price: "150",
     suitableHair: "All Hair Types",
   },
   {
@@ -141,7 +141,7 @@ export const mensHairstyles: Hairstyle[] = [
     bestFor: "Oval, Diamond",
     maintenance: "Low",
     time: "20 min",
-    price: "₹150",
+    price: "150",
     suitableHair: "All Hair Types",
   },
   {
@@ -154,7 +154,7 @@ export const mensHairstyles: Hairstyle[] = [
     bestFor: "Oval, Square",
     maintenance: "Low",
     time: "25 min",
-    price: "₹150",
+    price: "150",
     suitableHair: "All Hair Types",
   },
   {
@@ -167,7 +167,7 @@ export const mensHairstyles: Hairstyle[] = [
     bestFor: "Oval, Heart",
     maintenance: "Medium",
     time: "40 min",
-    price: "₹150",
+    price: "150",
     suitableHair: "Wavy, Straight",
   },
   {
@@ -180,7 +180,7 @@ export const mensHairstyles: Hairstyle[] = [
     bestFor: "Oval, Square",
     maintenance: "Medium",
     time: "35 min",
-    price: "₹150",
+    price: "150",
     suitableHair: "Straight, Fine",
   },
   {
@@ -193,7 +193,7 @@ export const mensHairstyles: Hairstyle[] = [
     bestFor: "Oval, Round",
     maintenance: "High",
     time: "45 min",
-    price: "₹150",
+    price: "150",
     suitableHair: "Thick, Straight",
   },
   {
@@ -206,7 +206,7 @@ export const mensHairstyles: Hairstyle[] = [
     bestFor: "Oval, Square",
     maintenance: "High",
     time: "45 min",
-    price: "₹150",
+    price: "150",
     suitableHair: "Thick, Wavy",
   },
   {
@@ -219,7 +219,7 @@ export const mensHairstyles: Hairstyle[] = [
     bestFor: "Oval, Long",
     maintenance: "Medium",
     time: "35 min",
-    price: "₹150",
+    price: "150",
     suitableHair: "Curly, Afro",
   },
   {
@@ -232,7 +232,7 @@ export const mensHairstyles: Hairstyle[] = [
     bestFor: "All Face Shapes",
     maintenance: "Medium",
     time: "35 min",
-    price: "₹150",
+    price: "150",
     suitableHair: "Fine, Straight",
   },
   {
@@ -245,7 +245,7 @@ export const mensHairstyles: Hairstyle[] = [
     bestFor: "Oval, Long",
     maintenance: "Low",
     time: "30 min",
-    price: "₹150",
+    price: "150",
     suitableHair: "Fine, Straight",
   },
   {
@@ -258,7 +258,7 @@ export const mensHairstyles: Hairstyle[] = [
     bestFor: "Oval, Square",
     maintenance: "Medium",
     time: "45 min",
-    price: "₹150",
+    price: "150",
     suitableHair: "Wavy, Straight",
   },
   {
@@ -271,7 +271,7 @@ export const mensHairstyles: Hairstyle[] = [
     bestFor: "Oval, Square",
     maintenance: "Medium",
     time: "45 min",
-    price: "₹150",
+    price: "150",
     suitableHair: "Medium Thickness",
   },
   {
@@ -284,7 +284,7 @@ export const mensHairstyles: Hairstyle[] = [
     bestFor: "Oval, Long",
     maintenance: "High",
     time: "55 min",
-    price: "₹150",
+    price: "150",
     suitableHair: "Thick, Wavy",
   },
   {
@@ -297,7 +297,7 @@ export const mensHairstyles: Hairstyle[] = [
     bestFor: "All Face Shapes",
     maintenance: "Low",
     time: "30 min",
-    price: "₹150",
+    price: "150",
     suitableHair: "All Hair Types",
   },
   {
@@ -310,7 +310,7 @@ export const mensHairstyles: Hairstyle[] = [
     bestFor: "Round, Heart",
     maintenance: "Low",
     time: "25 min",
-    price: "₹150",
+    price: "150",
     suitableHair: "Straight, Wavy",
   },
   {
@@ -323,7 +323,7 @@ export const mensHairstyles: Hairstyle[] = [
     bestFor: "Oval, Square",
     maintenance: "Medium",
     time: "40 min",
-    price: "₹150",
+    price: "150",
     suitableHair: "Thick, Straight",
   },
   {
@@ -352,7 +352,7 @@ export const womensHairstyles: Hairstyle[] = [
     bestFor: "All Face Shapes",
     maintenance: "Low",
     time: "45 min",
-    price: "₹499",
+    price: "499",
     suitableHair: "All Hair Types",
   },
   {
@@ -365,7 +365,7 @@ export const womensHairstyles: Hairstyle[] = [
     bestFor: "Oval, Heart",
     maintenance: "Medium",
     time: "50 min",
-    price: "₹599",
+    price: "599",
     suitableHair: "Medium to Thick",
   },
   {
@@ -378,7 +378,7 @@ export const womensHairstyles: Hairstyle[] = [
     bestFor: "Oval, Square",
     maintenance: "Medium",
     time: "55 min",
-    price: "₹699",
+    price: "699",
     suitableHair: "Thick, Wavy",
   },
   {
@@ -391,7 +391,7 @@ export const womensHairstyles: Hairstyle[] = [
     bestFor: "Oval, Long",
     maintenance: "Low",
     time: "35 min",
-    price: "₹349",
+    price: "349",
     suitableHair: "All Hair Types",
   },
   {
@@ -404,7 +404,7 @@ export const womensHairstyles: Hairstyle[] = [
     bestFor: "Round, Oval",
     maintenance: "Low",
     time: "40 min",
-    price: "₹399",
+    price: "399",
     suitableHair: "Thin to Medium",
   },
   {
@@ -417,7 +417,7 @@ export const womensHairstyles: Hairstyle[] = [
     bestFor: "Oval, Square",
     maintenance: "Low",
     time: "40 min",
-    price: "₹399",
+    price: "399",
     suitableHair: "All Hair Types",
   },
   {
@@ -430,7 +430,7 @@ export const womensHairstyles: Hairstyle[] = [
     bestFor: "Round, Square",
     maintenance: "Medium",
     time: "50 min",
-    price: "₹549",
+    price: "549",
     suitableHair: "Fine, Thin",
   },
   {
@@ -443,7 +443,7 @@ export const womensHairstyles: Hairstyle[] = [
     bestFor: "All Face Shapes",
     maintenance: "Low",
     time: "45 min",
-    price: "₹499",
+    price: "499",
     suitableHair: "All Hair Types",
   },
   {
@@ -456,7 +456,7 @@ export const womensHairstyles: Hairstyle[] = [
     bestFor: "Oval, Square",
     maintenance: "Medium",
     time: "45 min",
-    price: "₹599",
+    price: "599",
     suitableHair: "All Hair Types",
   },
   {
@@ -469,7 +469,7 @@ export const womensHairstyles: Hairstyle[] = [
     bestFor: "All Face Shapes",
     maintenance: "Low",
     time: "40 min",
-    price: "₹549",
+    price: "549",
     suitableHair: "All Hair Types",
   },
   {
@@ -482,7 +482,7 @@ export const womensHairstyles: Hairstyle[] = [
     bestFor: "Oval, Heart",
     maintenance: "High",
     time: "50 min",
-    price: "₹699",
+    price: "699",
     suitableHair: "Fine, Thin",
   },
   {
@@ -495,7 +495,7 @@ export const womensHairstyles: Hairstyle[] = [
     bestFor: "Oval, Round",
     maintenance: "Medium",
     time: "30 min",
-    price: "₹299",
+    price: "299",
     suitableHair: "Straight, Wavy",
   },
   {
@@ -508,7 +508,7 @@ export const womensHairstyles: Hairstyle[] = [
     bestFor: "All Face Shapes",
     maintenance: "Low",
     time: "35 min",
-    price: "₹349",
+    price: "349",
     suitableHair: "All Hair Types",
   },
   {
@@ -521,7 +521,7 @@ export const womensHairstyles: Hairstyle[] = [
     bestFor: "Round, Oval",
     maintenance: "Medium",
     time: "55 min",
-    price: "₹699",
+    price: "699",
     suitableHair: "Fine, Straight",
   },
   {
@@ -534,7 +534,7 @@ export const womensHairstyles: Hairstyle[] = [
     bestFor: "All Face Shapes",
     maintenance: "Medium",
     time: "60 min",
-    price: "₹799",
+    price: "799",
     suitableHair: "All Hair Types",
   },
   {
@@ -547,7 +547,7 @@ export const womensHairstyles: Hairstyle[] = [
     bestFor: "All Face Shapes",
     maintenance: "Medium",
     time: "60 min",
-    price: "₹799",
+    price: "799",
     suitableHair: "Wavy, Straight",
   },
   {
@@ -560,7 +560,7 @@ export const womensHairstyles: Hairstyle[] = [
     bestFor: "All Face Shapes",
     maintenance: "High",
     time: "90 min",
-    price: "₹1499",
+    price: "1499",
     suitableHair: "Long, Medium",
   },
   {
@@ -573,7 +573,7 @@ export const womensHairstyles: Hairstyle[] = [
     bestFor: "All Face Shapes",
     maintenance: "Low",
     time: "30 min",
-    price: "₹499",
+    price: "499",
     suitableHair: "Medium, Long",
   },
   {
@@ -586,7 +586,7 @@ export const womensHairstyles: Hairstyle[] = [
     bestFor: "All Face Shapes",
     maintenance: "High",
     time: "75 min",
-    price: "₹999",
+    price: "999",
     suitableHair: "All Hair Types",
   },
   {
@@ -599,9 +599,7 @@ export const womensHairstyles: Hairstyle[] = [
     bestFor: "Oval, Heart",
     maintenance: "Low",
     time: "45 min",
-    price: "₹449",
+    price: "449",
     suitableHair: "Medium to Thick",
   },
 ];
-
-export const allHairstyles = [...mensHairstyles, ...womensHairstyles];

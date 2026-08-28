@@ -1,14 +1,8 @@
-export interface BridalService {
-  name: string;
-  price: string;
-  note?: string;
-}
-
 export interface BridalCategory {
   id: string;
   title: string;
   icon: string;
-  services: BridalService[];
+  services: { name: string; price: string; note?: string }[];
   subCategories?: {
     title: string;
     brands?: string[];

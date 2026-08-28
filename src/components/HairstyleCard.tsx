@@ -46,7 +46,7 @@ export default function HairstyleCard({ hairstyle, index = 0, onClick }: Props) 
             className="absolute top-3 right-3 text-white text-[10px] font-body font-bold px-2.5 py-1 rounded-full"
             style={{ background: "rgba(35,78,112,0.85)" }}
           >
-            {hairstyle.price}
+            ₹{hairstyle.price}
           </div>
         )}
       </div>

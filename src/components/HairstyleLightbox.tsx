@@ -167,7 +167,7 @@ export default function HairstyleLightbox({ hairstyle, all, onClose, onNavigate 
                   <div>
                     <p className="text-[10px] font-body uppercase tracking-wider" style={{ color: "#9CA3AF" }}>Starting at</p>
                     <p className="font-heading font-bold text-xl mt-0.5" style={{ color: "#5C3A2E" }}>
-                      {hairstyle.price}
+                      ₹{hairstyle.price}
                     </p>
                   </div>
                 )}
