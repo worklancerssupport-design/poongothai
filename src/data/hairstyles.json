@@ -6,11 +6,14 @@
       "description": "A subtle, refined fade that starts just above the ear, keeping sides clean with a natural transition.",
       "image": "https://cdn.shopify.com/s/files/1/0029/0868/4397/files/Low_Taper_Fade_Fluffy_Hair.png?v=1747859628",
       "gender": "men",
-      "tags": ["Fade", "Short"],
+      "tags": [
+        "Fade",
+        "Short"
+      ],
       "bestFor": "Oval, Square, Diamond",
       "maintenance": "Low",
       "time": "30 min",
-      "price": "150",
+      "price": "200",
       "suitableHair": "All Hair Types"
     },
     {
@@ -19,7 +22,10 @@
       "description": "Versatile fade beginning at the midpoint of the head — balanced and effortlessly modern.",
       "image": "https://cdn.shopify.com/s/files/1/0029/0868/4397/files/Mid-Fade-Haircut_600x600.webp?v=1751273586",
       "gender": "men",
-      "tags": ["Fade", "Short"],
+      "tags": [
+        "Fade",
+        "Short"
+      ],
       "bestFor": "All Face Shapes",
       "maintenance": "Low",
       "time": "30 min",
@@ -32,7 +38,10 @@
       "description": "A bold, dramatic fade starting higher on the head — sharp contrast with the longer top.",
       "image": "https://i.pinimg.com/736x/29/ec/8d/29ec8d3cb2ac8b008089efa305218b5a.jpg",
       "gender": "men",
-      "tags": ["Fade", "Short"],
+      "tags": [
+        "Fade",
+        "Short"
+      ],
       "bestFor": "Oval, Long",
       "maintenance": "Medium",
       "time": "35 min",
@@ -45,7 +54,10 @@
       "description": "Hair blends down to bare skin for maximum contrast and a razor-clean finish.",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRgpMiCiiKDxHg0tlZygC79qyB76KjBGO7gSdE5yH6GQRB1uCKJcqThNGd&s=10",
       "gender": "men",
-      "tags": ["Fade", "Short"],
+      "tags": [
+        "Fade",
+        "Short"
+      ],
       "bestFor": "Oval, Diamond",
       "maintenance": "High",
       "time": "40 min",
@@ -58,7 +70,10 @@
       "description": "Fade radiates around the ear in a semi-circular arc — creative and dimensional.",
       "image": "https://i0.wp.com/therighthairstyles.com/wp-content/uploads/2024/07/1-textured-top-with-temple-shave.jpg?fit=1201%2C1501&ssl=1",
       "gender": "men",
-      "tags": ["Fade", "Short"],
+      "tags": [
+        "Fade",
+        "Short"
+      ],
       "bestFor": "Oval, Round",
       "maintenance": "Medium",
       "time": "40 min",
@@ -71,7 +86,10 @@
       "description": "Clean fade around temples and hairline for a sharp, well-groomed look.",
       "image": "https://i.pinimg.com/564x/ae/a5/01/aea501ed3f58c472fd982e4992225bdd.jpg",
       "gender": "men",
-      "tags": ["Fade", "Short"],
+      "tags": [
+        "Fade",
+        "Short"
+      ],
       "bestFor": "Square, Oval",
       "maintenance": "Low",
       "time": "25 min",
@@ -84,7 +102,10 @@
       "description": "Classic gradual taper along sides and neckline — timeless and professional.",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5byda1snEpVAa1NKglu0zrR33FDoLAUdPYWrpXqxbhj2Dbi0tHZR7cfDJ&s=10",
       "gender": "men",
-      "tags": ["Fade", "Short"],
+      "tags": [
+        "Fade",
+        "Short"
+      ],
       "bestFor": "All Face Shapes",
       "maintenance": "Low",
       "time": "30 min",
@@ -97,7 +118,10 @@
       "description": "Textured fringe sitting flat on the forehead, paired with faded sides — clean and current.",
       "image": "https://cdn.shopify.com/s/files/1/0029/0868/4397/files/french-crop-mid-skin-fade-haircut-men.webp?v=1769141430",
       "gender": "men",
-      "tags": ["Short", "Crop"],
+      "tags": [
+        "Short",
+        "Crop"
+      ],
       "bestFor": "Round, Square",
       "maintenance": "Low",
       "time": "30 min",
@@ -110,7 +134,9 @@
       "description": "Short sides, slightly longer on top with a natural taper — the all-American classic.",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdpNZG0_bc25tTthhPF4EjlE6s2TN2EEg3gtrb3Oayp1HPt6EJyWfuNiE&s=10",
       "gender": "men",
-      "tags": ["Short"],
+      "tags": [
+        "Short"
+      ],
       "bestFor": "Oval, Square",
       "maintenance": "Low",
       "time": "25 min",
@@ -123,7 +149,9 @@
       "description": "Ultra-short, uniform length close to the scalp. Bold, minimal, effortlessly cool.",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqckhJ1Iud-zym2k7hMwVPInxkVJBtwm3M8gdq2kngPL4YL_kks8-V0eU&s=10",
       "gender": "men",
-      "tags": ["Short"],
+      "tags": [
+        "Short"
+      ],
       "bestFor": "Oval, Diamond",
       "maintenance": "Low",
       "time": "20 min",
@@ -136,7 +164,9 @@
       "description": "Disciplined, short sides with a defined top — exudes strength and precision.",
       "image": "https://cdn.shopify.com/s/files/1/0029/0868/4397/files/military-side-part-hairstyle-men.webp?v=1762769540",
       "gender": "men",
-      "tags": ["Short"],
+      "tags": [
+        "Short"
+      ],
       "bestFor": "Oval, Square",
       "maintenance": "Low",
       "time": "25 min",
@@ -149,7 +179,9 @@
       "description": "Medium-length hair flowing naturally back or to the sides with light layering.",
       "image": "https://i.pinimg.com/236x/b7/19/2d/b7192d68b48aec1803bf8bb3890a2dd6.jpg",
       "gender": "men",
-      "tags": ["Long"],
+      "tags": [
+        "Long"
+      ],
       "bestFor": "Oval, Heart",
       "maintenance": "Medium",
       "time": "40 min",
@@ -162,7 +194,10 @@
       "description": "Sophisticated and suave — hair combed straight back for a polished, executive finish.",
       "image": "https://cdn.shopify.com/s/files/1/0029/0868/4397/files/slick-back-modern-haircut-men.webp?v=1756971481",
       "gender": "men",
-      "tags": ["Long", "Styled"],
+      "tags": [
+        "Long",
+        "Styled"
+      ],
       "bestFor": "Oval, Square",
       "maintenance": "Medium",
       "time": "35 min",
@@ -175,7 +210,10 @@
       "description": "Voluminous height on top, swept back elegantly — a timeless, high-impact statement cut.",
       "image": "https://i.pinimg.com/736x/07/4a/ed/074aedf7e526a4433d3aedce20a0fd46.jpg",
       "gender": "men",
-      "tags": ["Styled", "Long"],
+      "tags": [
+        "Styled",
+        "Long"
+      ],
       "bestFor": "Oval, Round",
       "maintenance": "High",
       "time": "45 min",
@@ -188,7 +226,9 @@
       "description": "Fusion of pompadour and flat-top — textured volume at the front, modern and bold.",
       "image": "https://cdn.shopify.com/s/files/1/0899/2676/2789/files/Quiff_Fade.jpg?v=1746561101",
       "gender": "men",
-      "tags": ["Styled"],
+      "tags": [
+        "Styled"
+      ],
       "bestFor": "Oval, Square",
       "maintenance": "High",
       "time": "45 min",
@@ -201,7 +241,10 @@
       "description": "Structured rectangular volume on top — a trending statement in modern urban styling.",
       "image": "https://i.pinimg.com/564x/99/74/a2/9974a2991e8504a8547218dad1feaadf.jpg",
       "gender": "men",
-      "tags": ["Short", "Styled"],
+      "tags": [
+        "Short",
+        "Styled"
+      ],
       "bestFor": "Oval, Long",
       "maintenance": "Medium",
       "time": "35 min",
@@ -214,7 +257,10 @@
       "description": "Youthful, messy-textured top with clean faded sides — inspired by K-pop aesthetics.",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfs2hgXlxHB47ck-xGOdmX9Ea8IWtGNZHcZYJ3YghL4oiXQXyIRREkcxA&s=10",
       "gender": "men",
-      "tags": ["Short", "Styled"],
+      "tags": [
+        "Short",
+        "Styled"
+      ],
       "bestFor": "All Face Shapes",
       "maintenance": "Medium",
       "time": "35 min",
@@ -227,7 +273,10 @@
       "description": "Rounded bowl-like shape hugging the head — retro meets modern minimalism.",
       "image": "https://i.pinimg.com/736x/60/bb/50/60bb507fc5537d8aaa00ef9699811d86.jpg",
       "gender": "men",
-      "tags": ["Short", "Crop"],
+      "tags": [
+        "Short",
+        "Crop"
+      ],
       "bestFor": "Oval, Long",
       "maintenance": "Low",
       "time": "30 min",
@@ -240,7 +289,10 @@
       "description": "Business front, party back — the updated mullet with clean lines and texture.",
       "image": "https://i.pinimg.com/736x/04/23/7f/04237f3707c4209a1e234ad98afff3b8.jpg",
       "gender": "men",
-      "tags": ["Mullet", "Long"],
+      "tags": [
+        "Mullet",
+        "Long"
+      ],
       "bestFor": "Oval, Square",
       "maintenance": "Medium",
       "time": "45 min",
@@ -253,7 +305,9 @@
       "description": "Choppy, layered texture throughout with the classic mullet silhouette — edgy and cool.",
       "image": "https://cdn.shopify.com/s/files/1/0029/0868/4397/files/messy-mullet-haircut.webp?v=1758098983",
       "gender": "men",
-      "tags": ["Mullet"],
+      "tags": [
+        "Mullet"
+      ],
       "bestFor": "Oval, Square",
       "maintenance": "Medium",
       "time": "45 min",
@@ -266,7 +320,10 @@
       "description": "Wolf cut meets mullet — shaggy layers, curtain bangs, and a flowing back.",
       "image": "https://i.pinimg.com/736x/8c/53/fc/8c53fc2821be1ea16982837e55d8a99a.jpg",
       "gender": "men",
-      "tags": ["Mullet", "Long"],
+      "tags": [
+        "Mullet",
+        "Long"
+      ],
       "bestFor": "Oval, Long",
       "maintenance": "High",
       "time": "55 min",
@@ -279,7 +336,11 @@
       "description": "Short, choppy, textured on top with skin or fade on the sides — endlessly wearable.",
       "image": "https://cdn.shopify.com/s/files/1/0029/0868/4397/files/textured-crop-drop-fade-hairstyle-men.webp?v=1763977299",
       "gender": "men",
-      "tags": ["Crop", "Short", "Fade"],
+      "tags": [
+        "Crop",
+        "Short",
+        "Fade"
+      ],
       "bestFor": "All Face Shapes",
       "maintenance": "Low",
       "time": "30 min",
@@ -292,7 +353,10 @@
       "description": "Short horizontal fringe sitting flat on the forehead with uniform length throughout.",
       "image": "https://i.pinimg.com/736x/e1/2d/49/e12d4925f29d6bafa5a9cc85079e926e.jpg",
       "gender": "men",
-      "tags": ["Short", "Crop"],
+      "tags": [
+        "Short",
+        "Crop"
+      ],
       "bestFor": "Round, Heart",
       "maintenance": "Low",
       "time": "25 min",
@@ -305,7 +369,10 @@
       "description": "Sharp contrast between very short shaved sides and longer, styled top hair — sleek and dramatic.",
       "image": "https://gatsbyindia.com/img/men-lifestyle/longtail-undercut-img/18_PompadourUndercut.jpg",
       "gender": "men",
-      "tags": ["Styled", "Short"],
+      "tags": [
+        "Styled",
+        "Short"
+      ],
       "bestFor": "Oval, Square",
       "maintenance": "Medium",
       "time": "40 min",
@@ -318,7 +385,10 @@
       "description": "Centre-parted fringe that falls on either side — effortlessly stylish for men too.",
       "image": "https://cdn.shopify.com/s/files/1/0029/0868/4397/files/s-shaped-curtain-hairstyle-men.webp?v=1759746479",
       "gender": "men",
-      "tags": ["Long", "Styled"],
+      "tags": [
+        "Long",
+        "Styled"
+      ],
       "bestFor": "All Face Shapes",
       "maintenance": "Medium",
       "time": "35 min",
@@ -333,7 +403,10 @@
       "description": "Cascading layers that add volume, movement, and texture to any hair length.",
       "image": "https://i.pinimg.com/736x/0d/af/1f/0daf1f2ac1d8a86e688060d97814337b.jpg",
       "gender": "women",
-      "tags": ["Layer", "Long"],
+      "tags": [
+        "Layer",
+        "Long"
+      ],
       "bestFor": "All Face Shapes",
       "maintenance": "Low",
       "time": "45 min",
@@ -346,7 +419,10 @@
       "description": "Face-framing layers with a voluminous crown that flutters like butterfly wings.",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR37cPb4iXOVVT_TK0mcd450jnmwYFiYg4wYs7Ssro8HilGLaMFCLly--p8&s=10",
       "gender": "women",
-      "tags": ["Layer", "Long"],
+      "tags": [
+        "Layer",
+        "Long"
+      ],
       "bestFor": "Oval, Heart",
       "maintenance": "Medium",
       "time": "50 min",
@@ -359,7 +435,10 @@
       "description": "Shaggy layers, curtain bangs, and defined volume — the most coveted cut of the decade.",
       "image": "https://cdn.shopify.com/s/files/1/0946/7314/2135/files/Swanky-Malone-Wolf-Cut-Soft.jpg?v=1763498588",
       "gender": "women",
-      "tags": ["Layer", "Long"],
+      "tags": [
+        "Layer",
+        "Long"
+      ],
       "bestFor": "Oval, Square",
       "maintenance": "Medium",
       "time": "55 min",
@@ -372,7 +451,10 @@
       "description": "Blunt, even ends for a sleek, polished look that enhances natural texture.",
       "image": "https://i.pinimg.com/564x/a5/9e/35/a59e35bb07c4b20b490eb3e8acdc9212.jpg",
       "gender": "women",
-      "tags": ["Long", "Short"],
+      "tags": [
+        "Long",
+        "Short"
+      ],
       "bestFor": "Oval, Long",
       "maintenance": "Low",
       "time": "35 min",
@@ -385,7 +467,9 @@
       "description": "A gentle U-shaped cut at the ends — adds natural flow and the illusion of fullness.",
       "image": "https://i.pinimg.com/474x/e8/c1/f1/e8c1f13927bc648b61370774533a4657.jpg",
       "gender": "women",
-      "tags": ["Long"],
+      "tags": [
+        "Long"
+      ],
       "bestFor": "Round, Oval",
       "maintenance": "Low",
       "time": "40 min",
@@ -398,7 +482,9 @@
       "description": "A sharp V-shaped cut that creates elegant elongation and frames the face beautifully.",
       "image": "https://i.pinimg.com/736x/bf/88/ca/bf88ca9d1a3db78651964cd0cb8b4db4.jpg",
       "gender": "women",
-      "tags": ["Long"],
+      "tags": [
+        "Long"
+      ],
       "bestFor": "Oval, Square",
       "maintenance": "Low",
       "time": "40 min",
@@ -411,7 +497,10 @@
       "description": "Wispy, feather-light layers angled away from the face — soft, romantic, timeless.",
       "image": "https://i.pinimg.com/736x/37/c9/28/37c92888a619a8c69fb0ed99293bb058.jpg",
       "gender": "women",
-      "tags": ["Layer", "Long"],
+      "tags": [
+        "Layer",
+        "Long"
+      ],
       "bestFor": "Round, Square",
       "maintenance": "Medium",
       "time": "50 min",
@@ -424,7 +513,9 @@
       "description": "Defined, step-like layers that create the illusion of fullness and structured volume.",
       "image": "https://i.pinimg.com/736x/2d/df/0c/2ddf0cee6bb04a28b35edff3a10c7cf5.jpg",
       "gender": "women",
-      "tags": ["Layer"],
+      "tags": [
+        "Layer"
+      ],
       "bestFor": "All Face Shapes",
       "maintenance": "Low",
       "time": "45 min",
@@ -437,7 +528,9 @@
       "description": "The iconic chin-length cut — clean, chic, and eternally fashionable in every variation.",
       "image": "https://hips.hearstapps.com/hmg-prod/images/bob-haircuts-side-bangs-665a123b364ca.jpg?crop=1xw:0.833740234375xh;center,top",
       "gender": "women",
-      "tags": ["Short"],
+      "tags": [
+        "Short"
+      ],
       "bestFor": "Oval, Square",
       "maintenance": "Medium",
       "time": "45 min",
@@ -450,7 +543,10 @@
       "description": "Shoulder-length with clean lines and optional light layers for natural movement.",
       "image": "https://i.pinimg.com/236x/57/70/d7/5770d73c2ae1b547f9f29b1132a6f1ed.jpg",
       "gender": "women",
-      "tags": ["Short", "Layer"],
+      "tags": [
+        "Short",
+        "Layer"
+      ],
       "bestFor": "All Face Shapes",
       "maintenance": "Low",
       "time": "40 min",
@@ -463,7 +559,9 @@
       "description": "Boldly short, close to the head with textured top — the ultimate confidence statement.",
       "image": "https://www.nishhair.com/cdn/shop/files/pixiewig.jpg?v=1701762100",
       "gender": "women",
-      "tags": ["Short"],
+      "tags": [
+        "Short"
+      ],
       "bestFor": "Oval, Heart",
       "maintenance": "High",
       "time": "50 min",
@@ -476,7 +574,10 @@
       "description": "Centre-parted fringe falling on either side of the face like curtains — effortlessly chic.",
       "image": "https://i.pinimg.com/236x/0e/96/ae/0e96ae30d0e08d224db88c928f14b193.jpg",
       "gender": "women",
-      "tags": ["Layer", "Wedding"],
+      "tags": [
+        "Layer",
+        "Wedding"
+      ],
       "bestFor": "Oval, Round",
       "maintenance": "Medium",
       "time": "30 min",
@@ -489,7 +590,9 @@
       "description": "Strategically placed layers that highlight features and brighten the entire look.",
       "image": "https://www.fabmood.com/inspiration/wp-content/uploads/2025/02/85741047000048.jpg",
       "gender": "women",
-      "tags": ["Layer"],
+      "tags": [
+        "Layer"
+      ],
       "bestFor": "All Face Shapes",
       "maintenance": "Low",
       "time": "35 min",
@@ -502,7 +605,10 @@
       "description": "Soft, fluffy layers inspired by K-beauty — youthful, bouncy, cloud-like silhouette.",
       "image": "https://i.pinimg.com/736x/d2/f7/0b/d2f70bb146632f21b73b034810f7c67a.jpg",
       "gender": "women",
-      "tags": ["Layer", "Long"],
+      "tags": [
+        "Layer",
+        "Long"
+      ],
       "bestFor": "Round, Oval",
       "maintenance": "Medium",
       "time": "55 min",
@@ -515,7 +621,10 @@
       "description": "Gentle, flowing waves that add dimension and romance to any length.",
       "image": "https://i.pinimg.com/236x/20/45/ff/2045ff2b8294e3ea1df22558cc41e228.jpg",
       "gender": "women",
-      "tags": ["Wedding", "Styled"],
+      "tags": [
+        "Wedding",
+        "Styled"
+      ],
       "bestFor": "All Face Shapes",
       "maintenance": "Medium",
       "time": "60 min",
@@ -528,7 +637,9 @@
       "description": "Effortless tousled waves that evoke sun-kissed summer vibes and carefree style.",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbtTIXmVQs0BjRH89wqr64zCYY7hQoh5EBMnB2XE6ihQN4IcoHTT4RHgc&s=10",
       "gender": "women",
-      "tags": ["Styled"],
+      "tags": [
+        "Styled"
+      ],
       "bestFor": "All Face Shapes",
       "maintenance": "Medium",
       "time": "60 min",
@@ -541,7 +652,9 @@
       "description": "An elegant, structured updo with intricate detailing — perfect for weddings and ceremonies.",
       "image": "https://cdn.shopify.com/s/files/1/0258/2531/2848/files/bun_rev_beach_waves.webp?v=1743135083",
       "gender": "women",
-      "tags": ["Wedding"],
+      "tags": [
+        "Wedding"
+      ],
       "bestFor": "All Face Shapes",
       "maintenance": "High",
       "time": "90 min",
@@ -554,7 +667,10 @@
       "description": "Chic, effortless updo balancing casual and glamorous — perfect for any occasion.",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzRJSI5xE9_p64vD4JW3mDukCUv3l9SMucuRa0CkHS-M6ETSwWLPdcAoyt&s=10",
       "gender": "women",
-      "tags": ["Styled", "Wedding"],
+      "tags": [
+        "Styled",
+        "Wedding"
+      ],
       "bestFor": "All Face Shapes",
       "maintenance": "Low",
       "time": "30 min",
@@ -567,7 +683,10 @@
       "description": "Avant-garde, custom-designed cuts that push creative boundaries and express individuality.",
       "image": "https://i.pinimg.com/736x/10/d4/6e/10d46ea74d1fd6bc8b386fc8dfd594f1.jpg",
       "gender": "women",
-      "tags": ["Short", "Styled"],
+      "tags": [
+        "Short",
+        "Styled"
+      ],
       "bestFor": "All Face Shapes",
       "maintenance": "High",
       "time": "75 min",
@@ -580,7 +699,9 @@
       "description": "A dramatic deep U-shaped cut that creates bold contrast between sides and centre.",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQs91k-t8pUQMyO45pbFxKWN9isBjI_FP4GTXQiZl7x9Q2p0Bv9fg_Vo-U&s=10",
       "gender": "women",
-      "tags": ["Long"],
+      "tags": [
+        "Long"
+      ],
       "bestFor": "Oval, Heart",
       "maintenance": "Low",
       "time": "45 min",
