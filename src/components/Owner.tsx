@@ -1,8 +1,9 @@
 import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
-import { ownerData } from "@/data/owner";
+import { useDataContext } from "@/contexts/DataContext";
 
 export default function Owner() {
+  const { owner: ownerData } = useDataContext();
   const ref   = useRef(null);
   const inView = useInView(ref, { once: true, margin: "-80px" });
 

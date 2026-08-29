@@ -1,10 +1,11 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ArrowUp } from "lucide-react";
-import { contactData } from "@/data/contact";
+import { useDataContext } from "@/contexts/DataContext";
 import { WhatsAppIcon } from "./SocialIcons";
 
 export default function FloatingButtons() {
+  const { contact: contactData } = useDataContext();
   const [showTop, setShowTop] = useState(false);
 
   useEffect(() => {

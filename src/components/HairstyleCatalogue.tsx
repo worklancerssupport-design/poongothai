@@ -1,8 +1,7 @@
 import { useState, useEffect, useMemo, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { X, Search } from "lucide-react";
-import catalogueData from "@/data/catalogue.json";
-import { mensHairstyles, womensHairstyles } from "@/data/hairstyles";
+import { useDataContext } from "@/contexts/DataContext";
 
 // Categories lists
 const MEN_LIST = [
@@ -82,6 +81,7 @@ interface MenuHairstyle {
 }
 
 export default function HairstyleCatalogue({ isOpen, onClose }: HairstyleCatalogueProps) {
+  const { catalogue: catalogueData, mensHairstyles, womensHairstyles } = useDataContext();
   const [activeTab, setActiveTab] = useState<"MEN" | "WOMEN" | "KIDS">("MEN");
   const [searchQuery, setSearchQuery] = useState("");
   const inputRef = useRef<HTMLInputElement>(null);

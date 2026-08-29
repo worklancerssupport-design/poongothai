@@ -1,9 +1,10 @@
 import { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence, useInView } from "framer-motion";
 import { ChevronLeft, ChevronRight, Star, ShieldCheck, Quote } from "lucide-react";
-import { testimonialsData } from "@/data/testimonials";
+import { useDataContext } from "@/contexts/DataContext";
 
 export default function Testimonials() {
+  const { testimonials: testimonialsData } = useDataContext();
   const ref = useRef(null);
   const inView = useInView(ref, { once: true, margin: "-60px" });
 

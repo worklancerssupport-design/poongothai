@@ -1,4 +1,4 @@
-import type { Hairstyle } from "@/data/hairstyles";
+import type { Hairstyle } from "@/lib/fetchData";
 import { AnimatePresence, motion } from "framer-motion";
 import { ChevronLeft, ChevronRight, Clock, X } from "lucide-react";
 import { useCallback, useEffect } from "react";

@@ -2,9 +2,10 @@ import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
 import { Phone, Mail, MessageCircle, MapPin, ArrowRight } from "lucide-react";
 import { InstagramIcon, FacebookIcon, YoutubeIcon, WhatsAppIcon } from "./SocialIcons";
-import { contactData } from "@/data/contact";
+import { useDataContext } from "@/contexts/DataContext";
 
 export default function Contact() {
+  const { contact: contactData } = useDataContext();
   const ref    = useRef(null);
   const inView = useInView(ref, { once: true, margin: "-60px" });
 

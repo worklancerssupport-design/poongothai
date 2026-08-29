@@ -1,9 +1,10 @@
 import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
 import { MapPin, Phone, Mail, Navigation, MessageCircle } from "lucide-react";
-import { contactData } from "@/data/contact";
+import { useDataContext } from "@/contexts/DataContext";
 
 export default function Map() {
+  const { contact: contactData } = useDataContext();
   const ref   = useRef(null);
   const inView = useInView(ref, { once: true, margin: "-60px" });
 

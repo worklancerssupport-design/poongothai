@@ -3,13 +3,15 @@ import { motion, useInView } from "framer-motion";
 import { ChevronDown } from "lucide-react";
 import HairstyleCard from "./HairstyleCard";
 import HairstyleLightbox from "./HairstyleLightbox";
-import { mensHairstyles, womensHairstyles, type Hairstyle } from "@/data/hairstyles";
+import { useDataContext } from "@/contexts/DataContext";
+import type { Hairstyle } from "@/lib/fetchData";
 
 const MEN_TAGS   = ["All", "Fade", "Mullet", "Short", "Long", "Crop", "Styled"];
 const WOMEN_TAGS = ["All", "Layer", "Short", "Long", "Wedding", "Styled"];
 type Gender = "men" | "women";
 
 export default function Hairstyles() {
+  const { mensHairstyles, womensHairstyles } = useDataContext();
   const ref    = useRef(null);
   const inView = useInView(ref, { once: true, margin: "-60px" });
 

@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Routes, Route } from "react-router-dom";
+import { DataProvider } from "@/contexts/DataContext";
 import AnnouncementTicker from "@/components/AnnouncementTicker";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
@@ -27,7 +28,7 @@ function HomePage() {
   };
 
   return (
-    <>
+    <DataProvider>
       <CursorGlow />
       <AnnouncementTicker />
       <Navbar onOpenCatalogue={() => setIsCatalogueOpen(true)} />
@@ -52,7 +53,7 @@ function HomePage() {
         isOpen={isCatalogueOpen}
         onClose={() => setIsCatalogueOpen(false)}
       />
-    </>
+    </DataProvider>
   );
 }
 

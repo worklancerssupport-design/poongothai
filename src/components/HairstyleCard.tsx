@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import type { Hairstyle } from "@/data/hairstyles";
+import type { Hairstyle } from "@/lib/fetchData";
 
 interface Props {
   hairstyle: Hairstyle;

@@ -1,7 +1,7 @@
 import { useState, useMemo, useRef } from "react";
 import { motion, AnimatePresence, useInView } from "framer-motion";
 import { Search, X, ArrowRight, Sparkles, IndianRupee, Scissors, ArrowUpRight } from "lucide-react";
-import { servicesData } from "@/data/services";
+import { useDataContext } from "@/contexts/DataContext";
 
 const fmt = (n: number) => n.toLocaleString("en-IN");
 
@@ -15,6 +15,7 @@ interface SearchResultItem {
 }
 
 export default function Services() {
+  const { services: servicesData } = useDataContext();
   const ref = useRef(null);
   const inView = useInView(ref, { once: true, margin: "-60px" });
 

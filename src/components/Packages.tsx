@@ -1,7 +1,8 @@
 import { useState, useRef } from "react";
 import { AnimatePresence, motion, useInView } from "framer-motion";
 import { Check, X, ArrowRight, IndianRupee, Sparkles, ChevronDown, ChevronUp } from "lucide-react";
-import { packagesData, type Package } from "@/data/packages";
+import { useDataContext } from "@/contexts/DataContext";
+import type { Package } from "@/lib/fetchData";
 
 const fmt = (n: number) => n.toLocaleString("en-IN");
 
@@ -210,6 +211,7 @@ function PackageCard({
 
 /* ── Main Package Offers Section ── */
 export default function Packages() {
+  const { packages: packagesData } = useDataContext();
   const ref = useRef(null);
   const inView = useInView(ref, { once: true, margin: "-60px" });
   const [selectedGender, setSelectedGender] = useState<"all" | "men" | "women">("all");

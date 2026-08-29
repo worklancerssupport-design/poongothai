@@ -1,6 +1,6 @@
 import { MapPin, Phone, Mail } from "lucide-react";
 import { InstagramIcon, FacebookIcon, YoutubeIcon, TwitterIcon } from "./SocialIcons";
-import { contactData } from "@/data/contact";
+import { useDataContext } from "@/contexts/DataContext";
 
 const quickLinks = [
   { label: "Services",           href: "#services"   },
@@ -10,13 +10,6 @@ const quickLinks = [
   { label: "Contact",            href: "#contact"     },
 ];
 
-const socials = [
-  { icon: InstagramIcon, href: contactData.social.instagram, label: "Instagram" },
-  { icon: FacebookIcon,  href: contactData.social.facebook,  label: "Facebook"  },
-  { icon: YoutubeIcon,   href: contactData.social.youtube,   label: "YouTube"   },
-  { icon: TwitterIcon,   href: contactData.social.twitter,   label: "Twitter"   },
-];
-
 const hours = [
   { day: "Mon – Fri", time: "9:00 AM – 9:00 PM"  },
   { day: "Saturday",  time: "9:00 AM – 10:00 PM" },
@@ -24,8 +17,16 @@ const hours = [
 ];
 
 export default function Footer() {
+  const { contact: contactData } = useDataContext();
   const go = (href: string) =>
     document.querySelector(href)?.scrollIntoView({ behavior: "smooth" });
+
+  const socials = [
+    { icon: InstagramIcon, href: contactData.social.instagram, label: "Instagram" },
+    { icon: FacebookIcon,  href: contactData.social.facebook,  label: "Facebook"  },
+    { icon: YoutubeIcon,   href: contactData.social.youtube,   label: "YouTube"   },
+    { icon: TwitterIcon,   href: contactData.social.twitter,   label: "Twitter"   },
+  ];
 
   return (
     <footer className="py-6" style={{ background: "#2B2118", color: "#fff" }}>

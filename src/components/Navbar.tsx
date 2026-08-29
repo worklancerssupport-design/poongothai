@@ -1,7 +1,7 @@
 import { AnimatePresence, motion } from "framer-motion";
 import { ArrowUpRight, Menu as MenuIcon, X } from "lucide-react";
 import { useEffect, useState } from "react";
-import { contactData } from "@/data/contact";
+import { useDataContext } from "@/contexts/DataContext";
 
 const SALON_LOGO =
   "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgjNvD9C9ig9pN02Zl3FOd_1RHv8zFedEelsVRrQbafz6By3DlCQdS-28&s=10";
@@ -29,6 +29,7 @@ interface NavbarProps {
 }
 
 export default function Navbar({ onOpenCatalogue }: NavbarProps) {
+  const { contact: contactData } = useDataContext();
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
   const [active, setActive] = useState("#hero");

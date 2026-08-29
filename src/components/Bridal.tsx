@@ -1,5 +1,5 @@
-import type { BridalCategory } from "@/data/bridalServices";
-import { bridalCategories } from "@/data/bridalServices";
+import { useDataContext } from "@/contexts/DataContext";
+import type { BridalCategory } from "@/lib/fetchData";
 import { AnimatePresence, motion, useInView } from "framer-motion";
 import {
   Bath,
@@ -164,6 +164,7 @@ function CategoryContent({ cat }: { cat: BridalCategory }) {
 
 /* ── Bridal Services Modal ── */
 function BridalModal({ onClose }: { onClose: () => void }) {
+  const { bridalCategories } = useDataContext();
   const [activeId, setActiveId] = useState(bridalCategories[0].id);
   const active = bridalCategories.find((c) => c.id === activeId)!;
 
