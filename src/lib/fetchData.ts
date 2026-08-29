@@ -1,15 +1,29 @@
+const GITHUB_TOKEN = import.meta.env.VITE_GITHUB_TOKEN;
 const GITHUB_OWNER = import.meta.env.VITE_GITHUB_OWNER;
 const GITHUB_REPO = import.meta.env.VITE_GITHUB_REPO;
 const GITHUB_BRANCH = import.meta.env.VITE_GITHUB_BRANCH || "main";
 
-function rawUrl(path: string): string {
-  return `https://raw.githubusercontent.com/${GITHUB_OWNER}/${GITHUB_REPO}/${GITHUB_BRANCH}/${path}?t=${Date.now()}`;
+const HEADERS = {
+  Authorization: `Bearer ${GITHUB_TOKEN}`,
+  Accept: "application/vnd.github.v3+json",
+};
+
+function apiUrl(path: string): string {
+  return `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${path}?ref=${GITHUB_BRANCH}&t=${Date.now()}`;
+}
+
+function decodeBase64Utf8(b64: string): string {
+  const binary = atob(b64);
+  const bytes = new Uint8Array(binary.length);
+  for (let i = 0; i < binary.length; i++) bytes[i] = binary.charCodeAt(i);
+  return new TextDecoder("utf-8").decode(bytes);
 }
 
 async function fetchJson<T>(path: string): Promise<T> {
-  const res = await fetch(rawUrl(path));
+  const res = await fetch(apiUrl(path), { headers: HEADERS });
   if (!res.ok) throw new Error(`Failed to fetch ${path}: ${res.statusText}`);
-  return res.json();
+  const data = await res.json();
+  return JSON.parse(decodeBase64Utf8(data.content)) as T;
 }
 
 export interface ServiceItem {
@@ -133,49 +147,36 @@ export interface SiteData {
   catalogue: CatalogueItem[];
 }
 
-let cachedData: SiteData | null = null;
-let fetchPromise: Promise<SiteData> | null = null;
-
 export async function fetchSiteData(): Promise<SiteData> {
-  if (cachedData) return cachedData;
-  if (fetchPromise) return fetchPromise;
+  const [
+    services,
+    packages,
+    hairstyles,
+    bridalCategories,
+    testimonials,
+    contact,
+    owner,
+    catalogue,
+  ] = await Promise.all([
+    fetchJson<ServiceCategory[]>("src/data/services.json"),
+    fetchJson<Package[]>("src/data/packages.json"),
+    fetchJson<{ mensHairstyles: Hairstyle[]; womensHairstyles: Hairstyle[] }>("src/data/hairstyles.json"),
+    fetchJson<BridalCategory[]>("src/data/bridalServices.json"),
+    fetchJson<Testimonial[]>("src/data/testimonials.json"),
+    fetchJson<ContactData>("src/data/contact.json"),
+    fetchJson<OwnerData>("src/data/owner.json"),
+    fetchJson<CatalogueItem[]>("src/data/catalogue.json"),
+  ]);
 
-  fetchPromise = (async () => {
-    const [
-      services,
-      packages,
-      hairstyles,
-      bridalCategories,
-      testimonials,
-      contact,
-      owner,
-      catalogue,
-    ] = await Promise.all([
-      fetchJson<ServiceCategory[]>("src/data/services.json"),
-      fetchJson<Package[]>("src/data/packages.json"),
-      fetchJson<{ mensHairstyles: Hairstyle[]; womensHairstyles: Hairstyle[] }>("src/data/hairstyles.json"),
-      fetchJson<BridalCategory[]>("src/data/bridalServices.json"),
-      fetchJson<Testimonial[]>("src/data/testimonials.json"),
-      fetchJson<ContactData>("src/data/contact.json"),
-      fetchJson<OwnerData>("src/data/owner.json"),
-      fetchJson<CatalogueItem[]>("src/data/catalogue.json"),
-    ]);
-
-    const data: SiteData = {
-      services,
-      packages,
-      mensHairstyles: hairstyles.mensHairstyles,
-      womensHairstyles: hairstyles.womensHairstyles,
-      bridalCategories,
-      testimonials,
-      contact,
-      owner,
-      catalogue,
-    };
-
-    cachedData = data;
-    return data;
-  })();
-
-  return fetchPromise;
+  return {
+    services,
+    packages,
+    mensHairstyles: hairstyles.mensHairstyles,
+    womensHairstyles: hairstyles.womensHairstyles,
+    bridalCategories,
+    testimonials,
+    contact,
+    owner,
+    catalogue,
+  };
 }
