@@ -144,6 +144,31 @@ export default defineConfig(({ mode }) => {
               return;
             }
 
+            if (req.url === "/api/auth" && req.method === "POST") {
+              const body = await new Promise<any>((resolve, reject) => {
+                let data = "";
+                req.on("data", (chunk: any) => (data += chunk));
+                req.on("end", () => {
+                  try {
+                    resolve(JSON.parse(data));
+                  } catch (e) {
+                    reject(e);
+                  }
+                });
+              });
+
+              const EDIT_USERNAME = env.EDIT_USERNAME;
+              const EDIT_PASSWORD = env.EDIT_PASSWORD;
+
+              if (body.username === EDIT_USERNAME && body.password === EDIT_PASSWORD) {
+                res.end(JSON.stringify({ success: true }));
+              } else {
+                res.statusCode = 401;
+                res.end(JSON.stringify({ success: false, error: "Invalid username or password" }));
+              }
+              return;
+            }
+
             res.statusCode = 404;
             res.end(JSON.stringify({ error: "Not found" }));
           } catch (err) {

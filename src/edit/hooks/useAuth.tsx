@@ -1,12 +1,9 @@
 import { createContext, useContext, useState, useCallback, type ReactNode } from "react";
 
-const USERNAME = import.meta.env.VITE_EDIT_USERNAME;
-const PASSWORD = import.meta.env.VITE_EDIT_PASSWORD;
-
 interface AuthCtx {
   isAuthenticated: boolean;
   error: string | null;
-  login: (username: string, password: string) => boolean;
+  login: (username: string, password: string) => Promise<boolean>;
   logout: () => void;
 }
 
@@ -16,14 +13,28 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
-  const login = useCallback((username: string, password: string) => {
-    if (username === USERNAME && password === PASSWORD) {
-      setIsAuthenticated(true);
-      setError(null);
-      return true;
+  const login = useCallback(async (username: string, password: string) => {
+    try {
+      const res = await fetch("/api/auth", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ username, password }),
+      });
+
+      const data = await res.json();
+
+      if (data.success) {
+        setIsAuthenticated(true);
+        setError(null);
+        return true;
+      }
+
+      setError(data.error || "Invalid username or password");
+      return false;
+    } catch {
+      setError("Network error — please try again");
+      return false;
     }
-    setError("Invalid username or password");
-    return false;
   }, []);
 
   const logout = useCallback(() => {
