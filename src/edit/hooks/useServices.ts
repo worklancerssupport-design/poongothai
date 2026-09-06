@@ -1,47 +1,47 @@
 import { useState, useCallback, useEffect } from "react";
-import type { CatalogueData } from "../types";
 import { fetchFileFromGitHub, saveFileToGitHub } from "../lib/github";
+import type { ServiceCategory } from "@/lib/fetchData";
 
-const CATALOGUE_PATH = "src/data/catalogue.json";
+const SERVICES_PATH = "src/data/services.json";
 
-export function useCatalogue() {
-  const [originalData, setOriginalData] = useState<CatalogueData | null>(null);
-  const [editData, setEditData] = useState<CatalogueData | null>(null);
+export function useServices() {
+  const [originalData, setOriginalData] = useState<ServiceCategory[] | null>(null);
+  const [editData, setEditData] = useState<ServiceCategory[] | null>(null);
   const [sha, setSha] = useState<string | null>(null);
   const [loading, setLoading] = useState(true);
   const [saving, setSaving] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
-  const fetchCatalogue = useCallback(async () => {
+  const fetchServices = useCallback(async () => {
     setLoading(true);
     setError(null);
-    
+
     try {
-      const { content, sha: fileSha } = await fetchFileFromGitHub(CATALOGUE_PATH);
-      const parsed = JSON.parse(content) as CatalogueData;
-      
+      const { content, sha: fileSha } = await fetchFileFromGitHub(SERVICES_PATH);
+      const parsed = JSON.parse(content) as ServiceCategory[];
+
       setOriginalData(parsed);
       setEditData(structuredClone(parsed));
       setSha(fileSha);
     } catch (err) {
-      setError(err instanceof Error ? err.message : "Failed to fetch catalogue");
+      setError(err instanceof Error ? err.message : "Failed to fetch services");
     } finally {
       setLoading(false);
     }
   }, []);
 
   useEffect(() => {
-    fetchCatalogue();
-  }, [fetchCatalogue]);
+    fetchServices();
+  }, [fetchServices]);
 
-  const updateEditData = useCallback((updater: (prev: CatalogueData) => CatalogueData) => {
+  const updateEditData = useCallback((updater: (prev: ServiceCategory[]) => ServiceCategory[]) => {
     setEditData((prev) => {
       if (!prev) return null;
       return updater(prev);
     });
   }, []);
 
-  const saveCatalogue = useCallback(async () => {
+  const saveServices = useCallback(async () => {
     if (!editData || !sha) {
       throw new Error("No data to save");
     }
@@ -50,20 +50,20 @@ export function useCatalogue() {
     setError(null);
 
     try {
-      const content = JSON.stringify(editData, null, 4);
+      const content = JSON.stringify(editData, null, 2);
       const { newSha } = await saveFileToGitHub(
-        CATALOGUE_PATH,
+        SERVICES_PATH,
         content,
         sha,
-        "Update catalogue data via edit panel"
+        "Update services data via edit panel"
       );
 
       setOriginalData(structuredClone(editData));
       setSha(newSha);
-      
+
       return true;
     } catch (err) {
-      setError(err instanceof Error ? err.message : "Failed to save catalogue");
+      setError(err instanceof Error ? err.message : "Failed to save services");
       return false;
     } finally {
       setSaving(false);
@@ -76,7 +76,7 @@ export function useCatalogue() {
     }
   }, [originalData]);
 
-  const hasChanges = originalData !== null && editData !== null && 
+  const hasChanges = originalData !== null && editData !== null &&
     JSON.stringify(originalData) !== JSON.stringify(editData);
 
   return {
@@ -86,9 +86,9 @@ export function useCatalogue() {
     saving,
     error,
     hasChanges,
-    fetchCatalogue,
+    fetchServices,
     updateEditData,
-    saveCatalogue,
+    saveServices,
     discardChanges,
   };
 }

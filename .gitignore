@@ -18,3 +18,10 @@ yarn-error.log*
 
 # typescript
 *.tsbuildinfo
+
+# skills
+EDIT_CONSOLE.md
+
+# opencode
+.opencode/
+.opencode/*

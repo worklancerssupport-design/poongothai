@@ -2,7 +2,7 @@ import { useNavigate } from "react-router-dom";
 import { ArrowLeft, LogOut, Sparkles } from "lucide-react";
 import { AuthProvider, useAuth } from "./hooks/useAuth";
 import EditLogin from "./EditLogin";
-import EditCatalogueEditor from "./EditCatalogueEditor";
+import EditServicesEditor from "./EditServicesEditor";
 import EditHairstylesEditor from "./EditHairstylesEditor";
 
 function EditShell() {
@@ -61,8 +61,8 @@ function EditShell() {
 
       {/* Main editor */}
       <main>
-        <EditCatalogueEditor />
         <EditHairstylesEditor />
+        <EditServicesEditor />
       </main>
     </div>
   );

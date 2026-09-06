@@ -30,7 +30,7 @@ async function fetchJson(path: string) {
 
 export default async function handler(_req: VercelRequest, res: VercelResponse) {
   try {
-    const [services, packages, hairstyles, bridalCategories, testimonials, contact, owner, catalogue] =
+    const [services, packages, hairstyles, bridalCategories, testimonials, contact, owner] =
       await Promise.all([
         fetchJson("src/data/services.json"),
         fetchJson("src/data/packages.json"),
@@ -39,7 +39,6 @@ export default async function handler(_req: VercelRequest, res: VercelResponse) 
         fetchJson("src/data/testimonials.json"),
         fetchJson("src/data/contact.json"),
         fetchJson("src/data/owner.json"),
-        fetchJson("src/data/catalogue.json"),
       ]);
 
     res.status(200).json({
@@ -51,7 +50,6 @@ export default async function handler(_req: VercelRequest, res: VercelResponse) 
       testimonials,
       contact,
       owner,
-      catalogue,
     });
   } catch (err) {
     const message = err instanceof Error ? err.message : "Unknown error";

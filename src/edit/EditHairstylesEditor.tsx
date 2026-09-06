@@ -350,7 +350,7 @@ export default function EditHairstylesEditor() {
         <div className="flex flex-col mb-10">
           <div className="flex items-center gap-3 mb-3">
             <div className="w-8 h-px bg-[#C6A15B]" />
-            <span className="label text-[#9A6B52]">HAIRSTYLES / 02</span>
+            <span className="label text-[#9A6B52]">HAIRSTYLES / 01</span>
           </div>
           <h2
             className="font-heading font-bold text-[#3E2723]"

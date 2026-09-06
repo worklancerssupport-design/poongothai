@@ -81,7 +81,7 @@ interface MenuHairstyle {
 }
 
 export default function HairstyleCatalogue({ isOpen, onClose }: HairstyleCatalogueProps) {
-  const { catalogue: catalogueData, mensHairstyles, womensHairstyles } = useDataContext();
+  const { services: servicesData, mensHairstyles, womensHairstyles } = useDataContext();
   const [activeTab, setActiveTab] = useState<"MEN" | "WOMEN" | "KIDS">("MEN");
   const [searchQuery, setSearchQuery] = useState("");
   const inputRef = useRef<HTMLInputElement>(null);
@@ -113,53 +113,67 @@ export default function HairstyleCatalogue({ isOpen, onClose }: HairstyleCatalog
     };
   }, [isOpen, onClose]);
 
-  // Helper to dynamically resolve prices from data sources prioritizing oldPrice || price
+  // Helper to dynamically resolve prices from services.json, falling back to hairstyles.json
   const resolveMenuData = (gender: "MEN" | "WOMEN" | "KIDS"): MenuHairstyle[] => {
     const list = gender === "MEN" ? MEN_LIST : gender === "WOMEN" ? WOMEN_LIST : KIDS_LIST;
+
+    // Flatten all services across categories for this gender's lookup
+    const genderKey = gender === "MEN" ? "men" : gender === "WOMEN" ? "women" : "";
+    const allServices = (servicesData as any[]).flatMap((cat: any) =>
+      cat.services.map((svc: any) => ({
+        ...svc,
+        gender: cat.gender,
+        categoryTitle: cat.title,
+      }))
+    );
+
+    // Also include subcategory rows (for bleach/waxing/etc that have type variants)
+    const allSubRows = (servicesData as any[]).flatMap((cat: any) =>
+      (cat.subCategories || []).flatMap((sub: any) =>
+        sub.rows.map((row: any) => ({
+          name: row.label,
+          price: parseInt(String(row.price).replace(/[₹,]/g, "")) || 0,
+          gender: cat.gender,
+          categoryTitle: cat.title,
+        }))
+      )
+    );
+
+    const allItems = [...allServices, ...allSubRows];
 
     return list.map((name) => {
       let matchedPrice = "";
       let matchedOldPrice: string | undefined = undefined;
       const lowerName = name.toLowerCase();
 
-      // 1. Check catalogue.json (sourced directly from 7 star catalogue.csv)
       if (gender === "KIDS") {
-        const found = (catalogueData as any[]).find((row) => {
-          const rowGender = row.GENDER.toUpperCase();
-          const rowService = row.SERVICE.toLowerCase();
-          
+        // For kids, search across all gender categories
+        const found = allItems.find((item: any) => {
+          const itemGender = item.gender;
+          const itemName = (item.name || "").toLowerCase();
           if (lowerName === "small boys cut") {
-            return rowGender === "MENS" && rowService.includes("small boys cut");
+            return (itemGender === "men" || itemGender === "women") && itemName.includes("small boys cut") || itemName.includes("boys hair cut");
           }
-          return (
-            rowGender === "WOMEN" &&
-            (row.SERVICE_NAME === "KIDS CUT" || row.SERVICE_NAME === "Kids Cut") &&
-            (rowService === lowerName || rowService.includes(lowerName))
-          );
+          return itemName === lowerName || itemName.includes(lowerName);
         });
         if (found) {
-          matchedPrice = found.PRICE ? `₹${found.PRICE}` : "";
-          if (found["OLD PRICE"]) {
-            matchedOldPrice = `₹${found["OLD PRICE"]}`;
-          }
+          matchedPrice = found.price ? `₹${found.price}` : "";
+          if (found.oldPrice) matchedOldPrice = `₹${found.oldPrice}`;
         }
       } else {
-        const matchGender = gender === "MEN" ? "MENS" : "WOMEN";
-        const found = (catalogueData as any[]).find((row) => {
-          const rowGender = row.GENDER.toUpperCase();
-          const rowService = row.SERVICE.toLowerCase();
-          
-          return rowGender === matchGender && rowService === lowerName;
+        // For men/women, filter by gender
+        const found = allItems.find((item: any) => {
+          const itemGender = item.gender;
+          const itemName = (item.name || "").toLowerCase();
+          return itemGender === genderKey && itemName === lowerName;
         });
         if (found) {
-          matchedPrice = found.PRICE ? `₹${found.PRICE}` : "";
-          if (found["OLD PRICE"]) {
-            matchedOldPrice = `₹${found["OLD PRICE"]}`;
-          }
+          matchedPrice = found.price ? `₹${found.price}` : "";
+          if (found.oldPrice) matchedOldPrice = `₹${found.oldPrice}`;
         }
       }
 
-      // 2. Fallback to hairstyles.ts
+      // Fallback to hairstyles.json
       if (!matchedPrice) {
         const hairstyleList = gender === "MEN" ? mensHairstyles : womensHairstyles;
         const hStyle = hairstyleList.find(

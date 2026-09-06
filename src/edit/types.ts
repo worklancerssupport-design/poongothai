@@ -1,15 +1,3 @@
-export interface CatalogueItem {
-  GENDER: string;
-  SERVICE_NAME: string;
-  SERVICE: string;
-  TYPE: string;
-  PRICE: string;
-  "OLD PRICE": string;
-  image_url: string;
-}
-
-export type CatalogueData = CatalogueItem[];
-
 export interface Hairstyle {
   id: string;
   name: string;

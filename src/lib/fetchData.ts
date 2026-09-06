@@ -3,23 +3,20 @@ export interface ServiceItem {
   price: number;
   oldPrice?: number;
   offer?: string;
-  duration?: string;
 }
 
 export interface ServiceSubCategory {
   title: string;
-  rows: { label: string; price: string; price2?: string }[];
+  rows: { label: string; price: string; price2?: string; type?: string }[];
 }
 
 export interface ServiceCategory {
   id: string;
   gender: "men" | "women" | "kids";
-  icon: string;
   title: string;
   description: string;
   services: ServiceItem[];
   subCategories?: ServiceSubCategory[];
-  imageUrl?: string;
 }
 
 export interface Package {
@@ -59,7 +56,7 @@ export interface BridalCategory {
   subCategories?: {
     title: string;
     brands?: string[];
-    rows: { label: string; price: string; price2?: string }[];
+  rows: { label: string; price: string; price2?: string; type?: string }[];
   }[];
 }
 
@@ -97,16 +94,6 @@ export interface OwnerData {
   awards: string[];
 }
 
-export interface CatalogueItem {
-  GENDER: string;
-  SERVICE_NAME: string;
-  SERVICE: string;
-  TYPE: string;
-  PRICE: string;
-  "OLD PRICE": string;
-  image_url: string;
-}
-
 export interface SiteData {
   services: ServiceCategory[];
   packages: Package[];
@@ -116,11 +103,25 @@ export interface SiteData {
   testimonials: Testimonial[];
   contact: ContactData;
   owner: OwnerData;
-  catalogue: CatalogueItem[];
 }
 
-export async function fetchSiteData(): Promise<SiteData> {
-  const res = await fetch("/api/site-data");
-  if (!res.ok) throw new Error(`Failed to fetch site data: ${res.statusText}`);
-  return res.json();
+import servicesData from "@/data/services.json";
+import packagesData from "@/data/packages.json";
+import hairstylesData from "@/data/hairstyles.json";
+import bridalServicesData from "@/data/bridalServices.json";
+import testimonialsData from "@/data/testimonials.json";
+import contactData from "@/data/contact.json";
+import ownerData from "@/data/owner.json";
+
+export function loadLocalData(): SiteData {
+  return {
+    services: servicesData as ServiceCategory[],
+    packages: packagesData as Package[],
+    mensHairstyles: (hairstylesData as { mensHairstyles: Hairstyle[] }).mensHairstyles,
+    womensHairstyles: (hairstylesData as { womensHairstyles: Hairstyle[] }).womensHairstyles,
+    bridalCategories: bridalServicesData as BridalCategory[],
+    testimonials: testimonialsData as Testimonial[],
+    contact: contactData as ContactData,
+    owner: ownerData as OwnerData,
+  };
 }
