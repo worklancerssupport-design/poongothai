@@ -5,22 +5,25 @@ import { fetchFileFromGitHub, saveFileToGitHub } from "../lib/github";
 const HAIRSTYLES_PATH = "src/data/hairstyles.json";
 
 interface HairstylesJson {
-  mensHairstyles: HairstylesData["mens"];
-  womensHairstyles: HairstylesData["womens"];
+  mens: HairstylesData["mens"];
+  womens: HairstylesData["womens"];
+  kids: HairstylesData["kids"];
 }
 
 function parseHairstylesJson(content: string): HairstylesData {
-  const parsed = JSON.parse(content) as HairstylesJson;
+  const parsed = JSON.parse(content) as Record<string, unknown>;
   return {
-    mens: parsed.mensHairstyles,
-    womens: parsed.womensHairstyles,
+    mens: (parsed.mens as HairstylesData["mens"]) ?? [],
+    womens: (parsed.womens as HairstylesData["womens"]) ?? [],
+    kids: (parsed.kids as HairstylesData["kids"]) ?? [],
   };
 }
 
 function serializeHairstylesJson(data: HairstylesData): string {
   const json: HairstylesJson = {
-    mensHairstyles: data.mens,
-    womensHairstyles: data.womens,
+    mens: data.mens,
+    womens: data.womens,
+    kids: data.kids,
   };
   return JSON.stringify(json, null, 2);
 }

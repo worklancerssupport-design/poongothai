@@ -38,7 +38,7 @@ export interface Hairstyle {
   name: string;
   description: string;
   image: string;
-  gender: "men" | "women";
+  gender: "men" | "women" | "kids";
   tags: string[];
   bestFor: string;
   maintenance: "Low" | "Medium" | "High";
@@ -97,8 +97,9 @@ export interface OwnerData {
 export interface SiteData {
   services: ServiceCategory[];
   packages: Package[];
-  mensHairstyles: Hairstyle[];
-  womensHairstyles: Hairstyle[];
+  mens: Hairstyle[];
+  womens: Hairstyle[];
+  kids: Hairstyle[];
   bridalCategories: BridalCategory[];
   testimonials: Testimonial[];
   contact: ContactData;
@@ -117,8 +118,9 @@ export function loadLocalData(): SiteData {
   return {
     services: servicesData as ServiceCategory[],
     packages: packagesData as Package[],
-    mensHairstyles: (hairstylesData as { mensHairstyles: Hairstyle[] }).mensHairstyles,
-    womensHairstyles: (hairstylesData as { womensHairstyles: Hairstyle[] }).womensHairstyles,
+    mens: (hairstylesData as { mens: Hairstyle[] }).mens,
+    womens: (hairstylesData as { womens: Hairstyle[] }).womens,
+    kids: (hairstylesData as { kids: Hairstyle[] }).kids,
     bridalCategories: bridalServicesData as BridalCategory[],
     testimonials: testimonialsData as Testimonial[],
     contact: contactData as ContactData,

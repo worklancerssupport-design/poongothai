@@ -15,7 +15,7 @@ interface SearchResultItem {
 }
 
 export default function Services() {
-  const { services: servicesData } = useDataContext();
+  const { services: servicesData, mens, womens, kids } = useDataContext();
   const ref = useRef(null);
   const inView = useInView(ref, { once: true, margin: "-60px" });
 
@@ -78,6 +78,18 @@ export default function Services() {
               });
             }
           });
+        });
+      }
+    });
+
+    [...mens, ...womens, ...kids].forEach((h) => {
+      if (h.name.toLowerCase().includes(query)) {
+        results.push({
+          name: h.name,
+          categoryTitle: "HAIRSTYLE",
+          gender: h.gender as "men" | "women" | "kids",
+          price: h.price || "",
+          oldPrice: h.oldPrice,
         });
       }
     });

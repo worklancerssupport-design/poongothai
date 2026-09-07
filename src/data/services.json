@@ -32,22 +32,6 @@
       {
         "name": "Shampoo Setting Only",
         "price": 60
-      },
-      {
-        "name": "Small Boys Cut (Below 5 Yrs)",
-        "price": 120
-      },
-      {
-        "name": "Master Cut",
-        "price": 150
-      },
-      {
-        "name": "Pop Cut",
-        "price": 150
-      },
-      {
-        "name": "Mushroom Cut",
-        "price": 150
       }
     ]
   },
@@ -908,79 +892,11 @@
     ]
   },
   {
-    "id": "women-kids-cut",
-    "gender": "women",
-    "title": "Kids Cut",
-    "description": "Gentle, fun haircuts for young girls",
-    "services": [
-      {
-        "name": "Mushroom Cut",
-        "price": 200
-      },
-      {
-        "name": "Baby Cut",
-        "price": 200
-      },
-      {
-        "name": "Pop Cut",
-        "price": 200
-      },
-      {
-        "name": "Dora Cut",
-        "price": 200
-      },
-      {
-        "name": "Shairi Cut",
-        "price": 200
-      },
-      {
-        "name": "Baby Shalini Cutting",
-        "price": 200
-      },
-      {
-        "name": "Ladies Boy Cutting",
-        "price": 250
-      }
-    ]
-  },
-  {
     "id": "women-haircut",
     "gender": "women",
     "title": "Hair Cut",
     "description": "Expert cuts for every hair length and texture",
     "services": [
-      {
-        "name": "Straight Cut",
-        "price": 150
-      },
-      {
-        "name": "U Cut",
-        "price": 200
-      },
-      {
-        "name": "Deep U Cut",
-        "price": 250
-      },
-      {
-        "name": "V Cut",
-        "price": 300
-      },
-      {
-        "name": "Feather Cut",
-        "price": 600
-      },
-      {
-        "name": "Step Cut",
-        "price": 600
-      },
-      {
-        "name": "Layer Cut",
-        "price": 600
-      },
-      {
-        "name": "Creative Cut",
-        "price": 600
-      },
       {
         "name": "Front Cut",
         "price": 100

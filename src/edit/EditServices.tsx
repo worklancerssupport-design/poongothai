@@ -1,3 +1,4 @@
+import type React from "react";
 import { useServices } from "./hooks/useServices";
 import type { ServiceCategory, ServiceItem } from "@/lib/fetchData";
 

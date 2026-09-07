@@ -52,7 +52,7 @@ export default defineConfig(({ mode }) => {
 
           try {
             if (req.url === "/api/site-data") {
-              const [services, packages, hairstyles, bridalCategories, testimonials, contact, owner, catalogue] =
+              const [services, packages, hairstyles, bridalCategories, testimonials, contact, owner] =
                 await Promise.all([
                   fetchJson("src/data/services.json"),
                   fetchJson("src/data/packages.json"),
@@ -61,20 +61,19 @@ export default defineConfig(({ mode }) => {
                   fetchJson("src/data/testimonials.json"),
                   fetchJson("src/data/contact.json"),
                   fetchJson("src/data/owner.json"),
-                  fetchJson("src/data/catalogue.json"),
                 ]);
 
               res.end(
                 JSON.stringify({
                   services,
                   packages,
-                  mensHairstyles: hairstyles.mensHairstyles,
-                  womensHairstyles: hairstyles.womensHairstyles,
+                  mens: hairstyles.mens,
+                  womens: hairstyles.womens,
+                  kids: hairstyles.kids,
                   bridalCategories,
                   testimonials,
                   contact,
                   owner,
-                  catalogue,
                 })
               );
               return;

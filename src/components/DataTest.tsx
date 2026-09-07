@@ -6,8 +6,9 @@ export default function DataTest() {
   const checks = [
     { label: "services", ok: Array.isArray(data.services) && data.services.length > 0, count: data.services.length },
     { label: "packages", ok: Array.isArray(data.packages) && data.packages.length > 0, count: data.packages.length },
-    { label: "mensHairstyles", ok: Array.isArray(data.mensHairstyles) && data.mensHairstyles.length > 0, count: data.mensHairstyles.length },
-    { label: "womensHairstyles", ok: Array.isArray(data.womensHairstyles) && data.womensHairstyles.length > 0, count: data.womensHairstyles.length },
+    { label: "mens", ok: Array.isArray(data.mens) && data.mens.length > 0, count: data.mens.length },
+    { label: "womens", ok: Array.isArray(data.womens) && data.womens.length > 0, count: data.womens.length },
+    { label: "kids", ok: Array.isArray(data.kids) && data.kids.length > 0, count: data.kids.length },
     { label: "bridalCategories", ok: Array.isArray(data.bridalCategories) && data.bridalCategories.length > 0, count: data.bridalCategories.length },
     { label: "testimonials", ok: Array.isArray(data.testimonials) && data.testimonials.length > 0, count: data.testimonials.length },
     { label: "contact", ok: !!data.contact && !!data.contact.phone, count: 1 },

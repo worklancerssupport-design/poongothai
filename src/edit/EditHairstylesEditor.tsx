@@ -4,7 +4,7 @@ import { Plus, Trash2, RefreshCw, Save, RotateCcw, Image as ImageIcon, Search, P
 import EditHairstyles from "./EditHairstyles";
 import type { Hairstyle } from "./types";
 
-type Gender = "mens" | "womens";
+type Gender = "mens" | "womens" | "kids";
 
 function InlineEdit({
   value,
@@ -402,7 +402,7 @@ export default function EditHairstylesEditor() {
 
             if (!editData) return null;
 
-            const list = editData[activeGender];
+            const list = editData[activeGender] ?? [];
             const filtered = list.filter((item) => {
               const q = filter.trim().toLowerCase();
               if (!q) return true;
@@ -429,7 +429,7 @@ export default function EditHairstylesEditor() {
                     </div>
 
                     <div className="inline-flex rounded-lg p-0.5 bg-[#FAF7F0] border border-[#E5DFCF]">
-                      {(["mens", "womens"] as const).map((g) => (
+                      {(["mens", "womens", "kids"] as const).map((g) => (
                         <button
                           key={g}
                           onClick={() => setActiveGender(g)}
@@ -524,7 +524,7 @@ export default function EditHairstylesEditor() {
                         name: "New Hairstyle",
                         description: "Describe this hairstyle",
                         image: "",
-                        gender: activeGender === "mens" ? "men" : "women",
+                        gender: activeGender === "mens" ? "men" : activeGender === "womens" ? "women" : "kids",
                         tags: ["New"],
                         bestFor: "All Face Shapes",
                         maintenance: "Low",

@@ -1,5 +1,5 @@
 {
-  "mensHairstyles": [
+  "mens": [
     {
       "id": "low-fade",
       "name": "Low Fade",
@@ -396,7 +396,7 @@
       "suitableHair": "Straight, Wavy"
     }
   ],
-  "womensHairstyles": [
+  "womens": [
     {
       "id": "layer-cut",
       "name": "Layer Cut",
@@ -707,6 +707,112 @@
       "time": "45 min",
       "price": "449",
       "suitableHair": "Medium to Thick"
+    }
+  ],
+  "kids": [
+    {
+      "id": "mushroom-cut-kids",
+      "name": "Mushroom Cut",
+      "description": "Rounded bowl-like shape — a classic, easy-to-maintain cut for kids.",
+      "image": "https://i.pinimg.com/736x/60/bb/50/60bb507fc5537d8aaa00ef9699811d86.jpg",
+      "gender": "kids",
+      "tags": ["Short", "Crop"],
+      "bestFor": "All Face Shapes",
+      "maintenance": "Low",
+      "time": "20 min",
+      "price": "120",
+      "suitableHair": "All Hair Types"
+    },
+    {
+      "id": "pop-cut-kids",
+      "name": "Pop Cut",
+      "description": "Youthful, messy-textured top with clean sides — trendy and fun for kids.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfs2hgXlxHB47ck-xGOdmX9Ea8IWtGNZHcZYJ3YghL4oiXQXyIRREkcxA&s=10",
+      "gender": "kids",
+      "tags": ["Short", "Styled"],
+      "bestFor": "All Face Shapes",
+      "maintenance": "Low",
+      "time": "20 min",
+      "price": "120",
+      "suitableHair": "All Hair Types"
+    },
+    {
+      "id": "baby-cut",
+      "name": "Baby Cut",
+      "description": "A gentle, simple trim for babies and toddlers.",
+      "image": "",
+      "gender": "kids",
+      "tags": ["Short"],
+      "bestFor": "All Face Shapes",
+      "maintenance": "Low",
+      "time": "15 min",
+      "price": "100",
+      "suitableHair": "All Hair Types"
+    },
+    {
+      "id": "dora-cut",
+      "name": "Dora Cut",
+      "description": "Inspired by the iconic cartoon character — short, rounded, and adorable.",
+      "image": "",
+      "gender": "kids",
+      "tags": ["Short"],
+      "bestFor": "All Face Shapes",
+      "maintenance": "Low",
+      "time": "20 min",
+      "price": "120",
+      "suitableHair": "All Hair Types"
+    },
+    {
+      "id": "shairi-cut",
+      "name": "Shairi Cut",
+      "description": "A stylish, layered cut popular among young girls.",
+      "image": "",
+      "gender": "kids",
+      "tags": ["Layer", "Short"],
+      "bestFor": "All Face Shapes",
+      "maintenance": "Low",
+      "time": "25 min",
+      "price": "150",
+      "suitableHair": "All Hair Types"
+    },
+    {
+      "id": "baby-shalini-cutting",
+      "name": "Baby Shalini Cutting",
+      "description": "A cute, face-framing cut inspired by the popular style for young girls.",
+      "image": "",
+      "gender": "kids",
+      "tags": ["Short"],
+      "bestFor": "All Face Shapes",
+      "maintenance": "Low",
+      "time": "20 min",
+      "price": "120",
+      "suitableHair": "All Hair Types"
+    },
+    {
+      "id": "ladies-boy-cutting",
+      "name": "Ladies Boy Cutting",
+      "description": "A short, boyish cut for girls who prefer a low-maintenance style.",
+      "image": "",
+      "gender": "kids",
+      "tags": ["Short"],
+      "bestFor": "All Face Shapes",
+      "maintenance": "Low",
+      "time": "15 min",
+      "price": "100",
+      "suitableHair": "All Hair Types"
+    },
+    {
+      "id": "small-boys-cut",
+      "name": "Small Boys Cut",
+      "description": "A simple, neat haircut for young boys under5 years.",
+      "image": "",
+      "gender": "kids",
+      "tags": ["Short"],
+      "bestFor": "All Face Shapes",
+      "maintenance": "Low",
+      "time": "15 min",
+      "price": "120",
+      "suitableHair": "All Hair Types"
     }
   ]
 }

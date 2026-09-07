@@ -11,7 +11,7 @@ const WOMEN_TAGS = ["All", "Layer", "Short", "Long", "Wedding", "Styled"];
 type Gender = "men" | "women";
 
 export default function Hairstyles() {
-  const { mensHairstyles, womensHairstyles } = useDataContext();
+  const { mens, womens } = useDataContext();
   const ref    = useRef(null);
   const inView = useInView(ref, { once: true, margin: "-60px" });
 
@@ -22,7 +22,7 @@ export default function Hairstyles() {
   const [active, setActive] = useState<Hairstyle | null>(null);
 
   const tags       = gender === "men" ? MEN_TAGS : WOMEN_TAGS;
-  const dataSource = gender === "men" ? mensHairstyles : womensHairstyles;
+  const dataSource = gender === "men" ? mens : womens;
   const filtered   = filter === "All" ? dataSource : dataSource.filter((h) => h.tags.includes(filter));
   const visible    = showAll ? filtered : filtered.slice(0, 8);
 

@@ -1,8 +1,9 @@
+import { useState } from "react";
 import { useHairstyles } from "./hooks/useHairstyles";
 import { compressAndUpload, captureFromCamera, selectFromFile } from "./lib/cloudinary";
 import type { HairstylesData, Hairstyle } from "./types";
 
-type Gender = "mens" | "womens";
+type Gender = "mens" | "womens" | "kids";
 
 interface EditHairstylesProps {
   children: (props: {
@@ -39,7 +40,7 @@ export default function EditHairstyles({ children }: EditHairstylesProps) {
     discardChanges,
   } = useHairstyles();
 
-  const [uploadingImage, setUploadingImage] = React.useState(false);
+  const [uploadingImage, setUploadingImage] = useState(false);
 
   const updateItem = (gender: Gender, index: number, updates: Partial<Hairstyle>) => {
     updateEditData((prev) => {
@@ -117,5 +118,3 @@ export default function EditHairstyles({ children }: EditHairstylesProps) {
     </>
   );
 }
-
-import React from "react";

@@ -3,7 +3,7 @@ export interface Hairstyle {
   name: string;
   description: string;
   image: string;
-  gender: "men" | "women";
+  gender: "men" | "women" | "kids";
   tags: string[];
   bestFor: string;
   maintenance: "Low" | "Medium" | "High";
@@ -16,4 +16,5 @@ export interface Hairstyle {
 export interface HairstylesData {
   mens: Hairstyle[];
   womens: Hairstyle[];
+  kids: Hairstyle[];
 }

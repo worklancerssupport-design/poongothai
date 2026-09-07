@@ -44,8 +44,9 @@ export default async function handler(_req: VercelRequest, res: VercelResponse) 
     res.status(200).json({
       services,
       packages,
-      mensHairstyles: hairstyles.mensHairstyles,
-      womensHairstyles: hairstyles.womensHairstyles,
+      mens: hairstyles.mens,
+      womens: hairstyles.womens,
+      kids: hairstyles.kids,
       bridalCategories,
       testimonials,
       contact,
