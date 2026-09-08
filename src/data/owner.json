@@ -1,13 +1,27 @@
 {
-  "name": "Rahul Sharma",
+  "name": "Ramchandran",
   "title": "Master Stylist & Founder",
-  "experience": "25+ Years",
-  "photo": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&q=80",
-  "description": "With over 25 years of experience transforming looks and building confidence, Rahul Sharma has established Poongothai Family Salon as the premier destination for luxury hair and beauty services. Trained at prestigious academies in Mumbai and London, he brings international techniques to every client.",
-  "awards": [
-    "Best Salon in City — Style Awards 2023",
-    "Top Hair Stylist of the Year — Beauty India 2022",
-    "Excellence in Bridal Styling — Wedding Awards 2021",
-    "Customer Choice Award — 5 Years Running"
-  ]
+  "experience": "27+ Years",
+  "photo": "public/owner.png",
+  "description": "With over 27 years of experience transforming looks and building confidence, Ramchandran has established Poongothai Family Salon as the premier destination for luxury hair and beauty services. To ensure the utmost comfort and privacy, all female styling and haircuts are hosted in a completely separate, dedicated salon space. These exclusive services are personally provided by Mrs. Ramachandran, ensuring a premium, tailored experience for our female clientele.",
+  "awards": [],
+  "shopImages": [
+    {
+      "src": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlXpxmqfO3A5k0ZAMoQWAtgdZgO-YKCNcQGdY1Y_R_jD8BN3WBsBgWILr2IXEj1RExRUpodh268ajePQLhUlqdtx8evs8k_LxuJWqQ9tWQefZ0P9qU62_SA2vOBvIarMLY1aZc5=s1360-w1360-h1020-rw",
+      "alt": "Poongothai Family Salon — Main styling area and salon floor",
+      "title": "Styling Studio"
+    },
+    {
+      "src": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnjhlv4lmkehxvMPm2hFghkCFtYtWttkgWNO7lWuMCA4mpbW5YdFIi8rXrtTO2Cg5wjqtysoPqd5vHWlAc5kBofSL995I_oVrBB7mnqrPzT_WuD7-EnpYRl0g1faG5aZB0ex0sR=s1360-w1360-h1020-rw",
+      "alt": "Poongothai Family Salon — Premium haircut & grooming stations",
+      "title": "Grooming Lounge"
+    },
+    {
+      "src": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnScjGKyqhHBiXXHQGn3Pu6ywlou3WftFJ6YLx-E3bEntB7OtN1XpEMrJp6MW3peaoxRxLFscmFI7WmFGow7b6SfSwnyGBe9hfjYcBnnxuRoELq_KPtDYliHPLMbu2wSdgrc4do=s1360-w1360-h1020-rw",
+      "alt": "Poongothai Family Salon — Comfortable wash & treatment section",
+      "title": "Treatment & Wash"
+    }
+  ],
+  "shopSpaceDescription": "Step inside Poongothai Family Salon — a warm, modern sanctuary designed for relaxation and premium care.",
+  "meetTheExpertDescription": "Meet the master stylist behind Poongothai Family Salon — dedicated to crafting your perfect look with decades of expertise."
 }

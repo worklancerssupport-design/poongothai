@@ -1,6 +1,6 @@
 import { useState, useMemo, useRef, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Plus, Trash2, RefreshCw, Save, RotateCcw, IndianRupee, Search, Pencil, X, Sparkles, ChevronDown, ChevronRight } from "lucide-react";
+import { Plus, Trash2, RefreshCw, Save, RotateCcw, IndianRupee, Search, Pencil, X, Sparkles, ChevronDown, ChevronRight, Heart } from "lucide-react";
 import EditServices from "./EditServices";
 import type { ServiceCategory, ServiceItem } from "@/lib/fetchData";
 
@@ -483,6 +483,19 @@ function BrowseView({
                       />
                     </p>
                   )}
+                  <div className="flex items-center gap-3 mt-3">
+                    <button
+                      onClick={() => updateCategory(activeCatIndex, { bridal: !activeCategory.bridal })}
+                      className={`inline-flex items-center gap-1.5 px-3 py-1.5 font-body text-[10px] font-semibold uppercase tracking-wider rounded-full border transition-colors ${
+                        activeCategory.bridal
+                          ? "bg-[#5C3A2E] text-white border-[#5C3A2E]"
+                          : "bg-white text-[#7A6152] border-[#E5DFCF] hover:bg-[#5C3A2E]/5"
+                      }`}
+                    >
+                      <Heart className={`w-3 h-3 ${activeCategory.bridal ? "fill-current" : ""}`} />
+                      {activeCategory.bridal ? "In Bridal Collection" : "Add to Bridal"}
+                    </button>
+                  </div>
                   <p className="font-body text-xs text-[#9CA3AF] mt-1">
                     {activeCategory.services.length} services{activeCategory.subCategories ? `, ${(activeCategory.subCategories || []).reduce((n, s) => n + s.rows.length, 0)} sub-items` : ""}
                   </p>
@@ -534,6 +547,18 @@ function BrowseView({
                               inputClassName="w-20 font-heading font-bold text-lg text-[#5C3A2E] border border-[#5C3A2E] rounded px-2 py-1 outline-none text-right"
                             />
                           </div>
+                          {activeCategory.bridal && (
+                            <div className="flex items-center gap-1">
+                              <Heart className="w-3 h-3 text-[#C6A15B] shrink-0" />
+                              <InlineEdit
+                                value={svc.bridalPrice ?? ""}
+                                onSave={(v) => updateService(activeCatIndex, svcIdx, { bridalPrice: v || undefined })}
+                                placeholder="Bridal ₹"
+                                className="text-xs font-body text-[#9A6B52] cursor-pointer min-w-[60px]"
+                                inputClassName="w-24 text-xs font-body text-[#9A6B52] border border-[#C6A15B] rounded px-1.5 py-0.5 outline-none text-right"
+                              />
+                            </div>
+                          )}
                           <button
                             onClick={() => removeService(activeCatIndex, svcIdx)}
                             className="ml-1 p-1.5 rounded-md text-[#9CA3AF] hover:text-red-600 hover:bg-red-50 transition-colors opacity-0 group-hover:opacity-100"
@@ -748,6 +773,18 @@ function SearchResultsView({
                     inputClassName="w-20 font-heading font-bold text-lg text-[#5C3A2E] border border-[#5C3A2E] rounded px-2 py-1 outline-none text-right"
                   />
                 </div>
+                {service.bridalPrice !== undefined && (
+                  <div className="flex items-center gap-1">
+                    <Heart className="w-3 h-3 text-[#C6A15B] shrink-0" />
+                    <InlineEdit
+                      value={service.bridalPrice ?? ""}
+                      onSave={(v) => updateService(catIndex, svcIndex, { bridalPrice: v || undefined })}
+                      placeholder="Bridal ₹"
+                      className="text-xs font-body text-[#9A6B52] cursor-pointer min-w-[60px]"
+                      inputClassName="w-24 text-xs font-body text-[#9A6B52] border border-[#C6A15B] rounded px-1.5 py-0.5 outline-none text-right"
+                    />
+                  </div>
+                )}
                 <button
                   onClick={() => removeService(catIndex, svcIndex)}
                   className="ml-1 p-1.5 rounded-md text-[#9CA3AF] hover:text-red-600 hover:bg-red-50 transition-colors opacity-0 group-hover:opacity-100"

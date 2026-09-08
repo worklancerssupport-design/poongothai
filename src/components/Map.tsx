@@ -95,11 +95,11 @@ export default function Map() {
                     Email
                   </p>
                   <a
-                    href="mailto:ramchandran323@gmail.com"
+                    href={`mailto:${contactData.email}`}
                     className="font-body text-sm font-medium hover:underline"
                     style={{ color: "#2B2118" }}
                   >
-                    ramchandran323@gmail.com
+                    {contactData.email}
                   </a>
                 </div>
               </div>

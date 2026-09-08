@@ -428,6 +428,7 @@
     "gender": "women",
     "title": "Hair Straightening",
     "description": "Professional straightening, curling and styling services",
+    "bridal": true,
     "services": [
       {
         "name": "Wash & Blow Dry",
@@ -460,6 +461,7 @@
     "gender": "women",
     "title": "Makeup",
     "description": "Professional makeup for every occasion",
+    "bridal": true,
     "services": [
       {
         "name": "Makeup",
@@ -475,11 +477,13 @@
       },
       {
         "name": "Bridal Makeup",
-        "price": 5000
+        "price": 5000,
+        "bridalPrice": "₹5,000 – ₹8,000"
       },
       {
         "name": "Bridal 2 Days Makeup",
-        "price": 15000
+        "price": 15000,
+        "bridalPrice": "₹15,000 – ₹20,000"
       },
       {
         "name": "Saree Box Folding",
@@ -492,6 +496,7 @@
     "gender": "women",
     "title": "Body Massage",
     "description": "Therapeutic and relaxation massage therapies",
+    "bridal": true,
     "services": [
       {
         "name": "Foot Massage",
@@ -524,10 +529,12 @@
     "gender": "women",
     "title": "Other",
     "description": "Additional grooming and personal care services",
+    "bridal": true,
     "services": [
       {
         "name": "Warts & Pimple Removal",
-        "price": 50
+        "price": 50,
+        "bridalPrice": "₹50 – ₹200"
       },
       {
         "name": "Ear Punching",
@@ -540,6 +547,7 @@
     "gender": "women",
     "title": "Detan",
     "description": "Sun tan removal and brightening treatments",
+    "bridal": true,
     "services": [
       {
         "name": "Face & Neck",
@@ -564,6 +572,7 @@
     "gender": "women",
     "title": "Cleanup",
     "description": "Refreshing facial clean up sessions",
+    "bridal": true,
     "services": [
       {
         "name": "Fruit Cleanup",
@@ -596,6 +605,7 @@
     "gender": "women",
     "title": "Threading",
     "description": "Precise threading for perfect brows and face",
+    "bridal": true,
     "services": [
       {
         "name": "Eyebrows",
@@ -628,6 +638,7 @@
     "gender": "women",
     "title": "Waxing",
     "description": "Smooth, gentle hair removal for every body area",
+    "bridal": true,
     "services": [],
     "subCategories": [
       {
@@ -717,6 +728,7 @@
     "gender": "women",
     "title": "Bleach",
     "description": "Professional lightening services for a brighter, even tone",
+    "bridal": true,
     "services": [],
     "subCategories": [
       {

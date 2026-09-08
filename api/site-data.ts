@@ -30,16 +30,48 @@ async function fetchJson(path: string) {
 
 export default async function handler(_req: VercelRequest, res: VercelResponse) {
   try {
-    const [services, packages, hairstyles, bridalCategories, testimonials, contact, owner] =
+    const [services, packages, hairstyles, testimonials, contact, owner] =
       await Promise.all([
         fetchJson("src/data/services.json"),
         fetchJson("src/data/packages.json"),
         fetchJson("src/data/hairstyles.json"),
-        fetchJson("src/data/bridalServices.json"),
         fetchJson("src/data/testimonials.json"),
         fetchJson("src/data/contact.json"),
         fetchJson("src/data/owner.json"),
       ]);
+
+    const bridalIdMap: Record<string, string> = {
+      "women-straightening": "hair-styling",
+      "women-makeup": "makeup",
+      "women-massage": "body-care",
+      "women-other": "beauty",
+      "women-bleach": "bleach",
+      "women-detan": "detan",
+      "women-cleanup": "cleanup",
+      "women-threading": "threading",
+      "women-waxing": "waxing",
+    };
+
+    const bridalCategories = services
+      .filter((cat: any) => cat.gender === "women" && cat.bridal)
+      .map((cat: any) => ({
+        id: bridalIdMap[cat.id] ?? cat.id,
+        title: cat.title,
+        icon: "",
+        services: (cat.services || []).map((s: any) => ({
+          name: s.name,
+          price: s.bridalPrice ?? `₹${Number(s.price).toLocaleString("en-IN")}`,
+        })),
+        subCategories: cat.subCategories?.map((sub: any) => ({
+          title: sub.title,
+          rows: (sub.rows || []).map((r: any) => ({
+            label: r.label,
+            price: r.price,
+            price2: r.price2,
+            type: r.type,
+          })),
+        })),
+      }));
 
     res.status(200).json({
       services,

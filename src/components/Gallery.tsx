@@ -1,24 +1,8 @@
 import { useRef, useState, useCallback, useEffect } from "react";
 import { motion, useInView, AnimatePresence } from "framer-motion";
 import { X, ChevronLeft, ChevronRight, Eye } from "lucide-react";
-
-const SHOP_IMAGES = [
-  {
-    src: "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlXpxmqfO3A5k0ZAMoQWAtgdZgO-YKCNcQGdY1Y_R_jD8BN3WBsBgWILr2IXEj1RExRUpodh268ajePQLhUlqdtx8evs8k_LxuJWqQ9tWQefZ0P9qU62_SA2vOBvIarMLY1aZc5=s1360-w1360-h1020-rw",
-    alt: "Poongothai Family Salon — Main styling area and salon floor",
-    title: "Styling Studio",
-  },
-  {
-    src: "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnjhlv4lmkehxvMPm2hFghkCFtYtWttkgWNO7lWuMCA4mpbW5YdFIi8rXrtTO2Cg5wjqtysoPqd5vHWlAc5kBofSL995I_oVrBB7mnqrPzT_WuD7-EnpYRl0g1faG5aZB0ex0sR=s1360-w1360-h1020-rw",
-    alt: "Poongothai Family Salon — Premium haircut & grooming stations",
-    title: "Grooming Lounge",
-  },
-  {
-    src: "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnScjGKyqhHBiXXHQGn3Pu6ywlou3WftFJ6YLx-E3bEntB7OtN1XpEMrJp6MW3peaoxRxLFscmFI7WmFGow7b6SfSwnyGBe9hfjYcBnnxuRoELq_KPtDYliHPLMbu2wSdgrc4do=s1360-w1360-h1020-rw",
-    alt: "Poongothai Family Salon — Comfortable wash & treatment section",
-    title: "Treatment & Wash",
-  },
-];
+import { useDataContext } from "@/contexts/DataContext";
+import type { ShopImage } from "@/lib/fetchData";
 
 /* ── Lightbox ── */
 function Lightbox({
@@ -27,7 +11,7 @@ function Lightbox({
   onClose,
   onNav,
 }: {
-  images: typeof SHOP_IMAGES;
+  images: ShopImage[];
   idx: number;
   onClose: () => void;
   onNav: (i: number) => void;
@@ -160,6 +144,8 @@ export default function Gallery() {
   const ref = useRef(null);
   const inView = useInView(ref, { once: true });
   const [lightboxIdx, setLightboxIdx] = useState<number | null>(null);
+  const { owner } = useDataContext();
+  const SHOP_IMAGES = owner.shopImages;
 
   return (
     <section id="gallery" className="section relative" style={{ background: "#2B2118" }}>
@@ -185,7 +171,7 @@ export default function Gallery() {
             </h2>
           </div>
           <p className="font-body text-sm max-w-sm" style={{ color: "rgba(248,241,231,0.65)", lineHeight: 1.8 }}>
-            Step inside Poongothai Family Salon — a warm, modern sanctuary designed for relaxation and premium care.
+            {owner.shopSpaceDescription}
           </p>
         </motion.div>
 
