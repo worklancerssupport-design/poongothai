@@ -221,7 +221,7 @@ export default function Packages() {
   const filteredPackages = packagesData.filter((p) => {
     if (selectedGender === "all") return true;
     if (selectedGender === "men") return p.gender === "men";
-    return p.gender !== "men";
+    return p.gender === "women";
   });
 
   // Initially show only 6 packages
@@ -267,7 +267,7 @@ export default function Packages() {
             {[
               { key: "all", label: "All Packages" },
               { key: "men", label: "Men" },
-              { key: "women", label: "Women & Bridal" },
+              { key: "women", label: "Women" },
             ].map((tab) => (
               <button
                 key={tab.key}

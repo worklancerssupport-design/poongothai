@@ -22,7 +22,6 @@ export interface ServiceCategory {
 export interface Package {
   id: string;
   title: string;
-  image: string;
   description: string;
   includes: string[];
   oldPrice: number;
@@ -30,7 +29,7 @@ export interface Package {
   savings: number;
   tag?: string;
   popular?: boolean;
-  gender: "men" | "women" | "couple" | "bridal";
+  gender: "men" | "women";
 }
 
 export interface Hairstyle {

@@ -4,6 +4,7 @@ import { AuthProvider, useAuth } from "./hooks/useAuth";
 import EditLogin from "./EditLogin";
 import EditServicesEditor from "./EditServicesEditor";
 import EditHairstylesEditor from "./EditHairstylesEditor";
+import EditPackagesEditor from "./EditPackagesEditor";
 
 function EditShell() {
   const { isAuthenticated, logout } = useAuth();
@@ -63,6 +64,7 @@ function EditShell() {
       <main>
         <EditHairstylesEditor />
         <EditServicesEditor />
+        <EditPackagesEditor />
       </main>
     </div>
   );
