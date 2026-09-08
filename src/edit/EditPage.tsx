@@ -6,6 +6,7 @@ import EditServicesEditor from "./EditServicesEditor";
 import EditHairstylesEditor from "./EditHairstylesEditor";
 import EditPackagesEditor from "./EditPackagesEditor";
 import EditOwnerEditor from "./EditOwnerEditor";
+import EditContactEditor from "./EditContactEditor";
 
 function EditShell() {
   const { isAuthenticated, logout } = useAuth();
@@ -67,6 +68,7 @@ function EditShell() {
         <EditServicesEditor />
         <EditPackagesEditor />
         <EditOwnerEditor />
+        <EditContactEditor />
       </main>
     </div>
   );
