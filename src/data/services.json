@@ -7,11 +7,11 @@
     "services": [
       {
         "name": "Trimming",
-        "price": 80
+        "price": 70
       },
       {
         "name": "Hair Cut Normal",
-        "price": 150
+        "price": 130
       },
       {
         "name": "Shaving Foam",
@@ -335,15 +335,19 @@
     "services": [
       {
         "name": "Manicure",
-        "price": 250
+        "price": 550
       },
       {
         "name": "Spa Manicure with Pack",
-        "price": 500
+        "price": 1000
       },
       {
-        "name": "Crystal Manicure",
-        "price": 700
+        "name": "Hand Massage",
+        "price": 300
+      },
+      {
+        "name": "Change Of Polish",
+        "price": 100
       }
     ]
   },
@@ -387,15 +391,19 @@
     "services": [
       {
         "name": "Pedicure",
-        "price": 500
+        "price": 600
       },
       {
         "name": "Spa Pedicure with Pack",
-        "price": 700
+        "price": 1200
       },
       {
-        "name": "Crystal Pedicure",
-        "price": 1000
+        "name": "Leg Massage",
+        "price": 350
+      },
+      {
+        "name": "Change Of Polish",
+        "price": 100
       }
     ]
   },
@@ -465,11 +473,7 @@
     "services": [
       {
         "name": "Makeup",
-        "price": 1500
-      },
-      {
-        "name": "Saree Dropping",
-        "price": 500
+        "price": 5000
       },
       {
         "name": "Party Makeup",
@@ -477,17 +481,13 @@
       },
       {
         "name": "Bridal Makeup",
-        "price": 5000,
-        "bridalPrice": "₹5,000 – ₹8,000"
+        "price": 10000,
+        "bridalPrice": "₹10000 - 15000"
       },
       {
         "name": "Bridal 2 Days Makeup",
-        "price": 15000,
-        "bridalPrice": "₹15,000 – ₹20,000"
-      },
-      {
-        "name": "Saree Box Folding",
-        "price": 500
+        "price": 20000,
+        "bridalPrice": "₹20,000- 25000"
       }
     ]
   },
@@ -609,27 +609,27 @@
     "services": [
       {
         "name": "Eyebrows",
-        "price": 40
+        "price": 50
       },
       {
         "name": "Upper Lip",
-        "price": 20
-      },
-      {
-        "name": "Forehead",
-        "price": 20
-      },
-      {
-        "name": "Chin",
         "price": 30
       },
       {
-        "name": "Side Face",
-        "price": 60
+        "name": "Forehead",
+        "price": 30
       },
       {
-        "name": "Full Face Threading",
-        "price": 150
+        "name": "Chin",
+        "price": 40
+      },
+      {
+        "name": "Side Chin",
+        "price": 70
+      },
+      {
+        "name": "Full Face",
+        "price": 200
       }
     ]
   },
@@ -646,18 +646,18 @@
         "rows": [
           {
             "label": "Upper Lip Wax",
-            "price": "₹50",
+            "price": "40",
             "price2": "₹100"
           },
           {
             "label": "Chin Wax",
-            "price": "₹60",
+            "price": "70",
             "price2": "₹120"
           },
           {
-            "label": "Cheeks Wax",
-            "price": "₹50",
-            "price2": "₹100"
+            "label": "Sidechin Wax",
+            "price": "90",
+            "price2": "150"
           },
           {
             "label": "Full Face Wax",
@@ -666,58 +666,38 @@
           },
           {
             "label": "Under Arms Wax",
-            "price": "₹100",
-            "price2": "₹200"
+            "price": "100",
+            "price2": "250"
           },
           {
             "label": "Full Arms Wax",
-            "price": "₹300",
+            "price": "200",
             "price2": "₹500"
           },
           {
             "label": "Half Arms Wax",
-            "price": "₹150",
-            "price2": "₹300"
-          },
-          {
-            "label": "3/4 Arms",
-            "price": "₹250",
-            "price2": "₹400"
+            "price": "160",
+            "price2": "250"
           },
           {
             "label": "Full Legs Wax",
-            "price": "₹600",
-            "price2": "₹1000"
+            "price": "300",
+            "price2": "500"
           },
           {
             "label": "Half Legs Wax",
-            "price": "₹300",
-            "price2": "₹500"
-          },
-          {
-            "label": "Blouse Line Wax",
-            "price": "₹300",
-            "price2": "₹600"
+            "price": "250",
+            "price2": "400"
           },
           {
             "label": "Full Body Waxing",
-            "price": "₹2500",
-            "price2": "₹3500"
-          },
-          {
-            "label": "Bikini",
-            "price": "₹1500",
-            "price2": "₹2000"
+            "price": "1500",
+            "price2": "2500"
           },
           {
             "label": "Stomach",
-            "price": "₹300",
-            "price2": "₹600"
-          },
-          {
-            "label": "Lower Back",
-            "price": "₹300",
-            "price2": "₹600"
+            "price": "300",
+            "price2": "500"
           }
         ]
       }
@@ -753,15 +733,43 @@
         "rows": [
           {
             "label": "Oxy",
-            "price": "₹350"
+            "price": "200"
           },
           {
             "label": "Fruit",
-            "price": "₹300"
+            "price": "200"
           },
           {
             "label": "Gold",
-            "price": "₹400"
+            "price": "300"
+          },
+          {
+            "label": "Herbal",
+            "price": "300"
+          },
+          {
+            "label": "Pearl",
+            "price": "200"
+          },
+          {
+            "label": "Papaya",
+            "price": "200"
+          },
+          {
+            "label": "Silver",
+            "price": "200"
+          },
+          {
+            "label": "Neem",
+            "price": "200"
+          },
+          {
+            "label": "Diamond",
+            "price": "300"
+          },
+          {
+            "label": "Full Body",
+            "price": "2000"
           }
         ]
       },
